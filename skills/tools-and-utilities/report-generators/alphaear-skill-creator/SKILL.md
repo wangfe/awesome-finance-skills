@@ -1,6 +1,8 @@
 ---
-name: skill-creator
-description: Create or update AgentSkills. Use when designing, structuring, or packaging skills with scripts, references, and assets.
+name: Skill Creator
+description: Design and package new Claude Code AgentSkills — covers structure, principles (concise, degrees of freedom), and the SKILL.md + resources anatomy
+category: tools-and-utilities/report-generators
+tags: [skill-authoring, meta, agent-skills]
 ---
 
 # Skill Creator

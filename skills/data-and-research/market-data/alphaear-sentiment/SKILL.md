@@ -1,6 +1,8 @@
 ---
-name: alphaear-sentiment
-description: Analyze finance text sentiment using FinBERT or LLM. Use when the user needs to determine the sentiment (positive/negative/neutral) and score of financial text markets.
+name: AlphaEar Sentiment
+description: Analyze financial text sentiment using FinBERT or LLM, returning a scored label (positive/negative/neutral) from -1.0 to 1.0
+category: data-and-research/market-data
+tags: [sentiment-analysis, finbert, nlp, chinese-markets]
 ---
 
 # AlphaEar Sentiment Skill

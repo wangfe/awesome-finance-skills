@@ -1,6 +1,8 @@
 ---
-name: alphaear-predictor
-description: Market prediction skill using Kronos. Use when user needs finance market time-series forecasting or news-aware finance market adjustments.
+name: AlphaEar Predictor
+description: Time-series market forecasting using the Kronos model with news-aware sentiment adjustment for OHLC price prediction
+category: financial-modeling/forecasting
+tags: [forecasting, time-series, kronos, quantitative]
 ---
 
 # AlphaEar Predictor Skill

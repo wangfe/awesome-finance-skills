@@ -2,7 +2,7 @@
 
 > A curated, open collection of Claude Code skills for finance — personal finance, investing, financial modeling, accounting, trading, and more.
 
-[![Skills](https://img.shields.io/badge/skills-22-blue)](#skill-index)
+[![Skills](https://img.shields.io/badge/skills-27-blue)](#skill-index)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 
@@ -198,9 +198,9 @@ Each skill is self-contained — output from one can be pasted as input to the n
 <!-- SKILLS:news-and-reporting:START -->
 | Skill | Description | Tags |
 |---|---|---|
+| [AlphaEar News](skills/news-and-reporting/daily-digest/alphaear-news/SKILL.md) | Fetch real-time hot finance news and unified trend reports from multiple sources (财联社, WallStreetCN, Weibo, Zhihu, etc.) and Polymarket prediction data | `real-time-news` `chinese-markets` `polymarket` |
 | [Daily Financial News Report](skills/news-and-reporting/daily-digest/daily-financial-news-report.md) | Analyze a batch of financial news headlines and articles to produce a structured daily market briefing with key themes, market-moving events, and investment implications | `daily-briefing` `financial-news` `market-summary` |
 | [Fed Statement & FOMC Analyzer](skills/news-and-reporting/market-analysis/fed-statement-analyzer.md) | Analyze Federal Reserve statements, FOMC minutes, or Fed chair speeches to extract policy signals, rate path implications, and market impact | `fed` `fomc` `monetary-policy` |
-| [AlphaEar News](skills/news-and-reporting/daily-digest/alphaear-news/SKILL.md) | Fetch real-time hot finance news and unified trend reports from multiple sources (财联社, WallStreetCN, Weibo, Zhihu, etc.) and Polymarket prediction data | `real-time-news` `chinese-markets` `polymarket` `trends` |
 <!-- SKILLS:news-and-reporting:END -->
 
 <details>
@@ -240,13 +240,38 @@ Each skill is self-contained — output from one can be pasted as input to the n
 
 ---
 
+### Real Estate Investment
+
+<!-- SKILLS:real-estate-investment:START -->
+| Skill | Description | Tags |
+|---|---|---|
+| [Mortgage Payment Calculator](skills/real-estate-investment/financing/mortgage-payment-calculator.md) | Calculate monthly mortgage payments, total interest paid, and a full amortization schedule for any residential or investment property loan. | `mortgage` `amortization` `payment-calculator` |
+| [Real Estate Market News Digest](skills/real-estate-investment/market-analysis/real-estate-market-news-digest.md) | Analyze a batch of real estate news headlines to produce a structured digest with price trends, demand signals, and investment implications. | `real-estate` `market-news` `price-trends` |
+| [Investment Property Deal Analyzer](skills/real-estate-investment/property-analysis/investment-property-deal-analyzer.md) | Evaluate an investment property opportunity — price, location, condition, comparable sales — and produce a deal quality scorecard with buy/pass recommendation. | `real-estate` `deal-analysis` `property-investment` |
+| [Rental Property Cash Flow Analyzer](skills/real-estate-investment/rental-analysis/rental-property-cash-flow-analyzer.md) | Full rental property cash flow analysis — NOI, monthly and annual cash flow, break-even occupancy, and 5-year projection with rent growth assumptions. | `rental-property` `cash-flow` `noi` |
+| [Cap Rate & ROI Calculator](skills/real-estate-investment/roi-calculation/cap-rate-and-roi-calculator.md) | Calculate cap rate, cash-on-cash return, gross rent multiplier, and total ROI from property financials, with interpretation benchmarks. | `cap-rate` `cash-on-cash` `roi` |
+<!-- SKILLS:real-estate-investment:END -->
+
+<details>
+<summary>Subcategories</summary>
+
+- `market-analysis/` — Real estate news digests, price trend analysis, market conditions
+- `property-analysis/` — Deal analyzers, investment opportunity screeners, scorecards
+- `roi-calculation/` — Cap rate, cash-on-cash return, GRM, total ROI calculators
+- `rental-analysis/` — Rental cash flow, NOI, break-even, 5-year projections
+- `financing/` — Mortgage calculators, amortization schedules, DSCR analysis
+
+</details>
+
+---
+
 ### Financial Modeling
 
 <!-- SKILLS:financial-modeling:START -->
 | Skill | Description | Tags |
 |---|---|---|
 | [DCF Model Builder](skills/financial-modeling/dcf-valuation/dcf-model-builder.md) | Build a discounted cash flow valuation from user-supplied financials and assumptions to estimate intrinsic value per share | `dcf` `valuation` `intrinsic-value` |
-| [AlphaEar Predictor](skills/financial-modeling/forecasting/alphaear-predictor/SKILL.md) | Time-series market forecasting using the Kronos model with news-aware sentiment adjustment for OHLC price prediction | `forecasting` `time-series` `kronos` `quantitative` |
+| [AlphaEar Predictor](skills/financial-modeling/forecasting/alphaear-predictor/SKILL.md) | Time-series market forecasting using the Kronos model with news-aware sentiment adjustment for OHLC price prediction | `forecasting` `time-series` `kronos` |
 <!-- SKILLS:financial-modeling:END -->
 
 <details>
@@ -287,8 +312,8 @@ Each skill is self-contained — output from one can be pasted as input to the n
 <!-- SKILLS:trading:START -->
 | Skill | Description | Tags |
 |---|---|---|
+| [AlphaEar Signal Tracker](skills/trading/quantitative/alphaear-signal-tracker/SKILL.md) | Track and update investment signal evolution — assess whether signals are Strengthened, Weakened, or Falsified based on new market data and news | `signal-tracking` `investment-signals` `quantitative` |
 | [Position Sizing Calculator](skills/trading/risk-management/position-sizing-calculator.md) | Calculate optimal trade position size using risk-based methods (fixed dollar risk, Kelly Criterion, volatility-adjusted) | `position-sizing` `risk-management` `kelly-criterion` |
-| [AlphaEar Signal Tracker](skills/trading/quantitative/alphaear-signal-tracker/SKILL.md) | Track and update investment signal evolution — assess whether signals are Strengthened, Weakened, or Falsified based on new market data and news | `signal-tracking` `investment-signals` `quantitative` `ISQ` |
 <!-- SKILLS:trading:END -->
 
 <details>
@@ -309,8 +334,8 @@ Each skill is self-contained — output from one can be pasted as input to the n
 | Skill | Description | Tags |
 |---|---|---|
 | [Earnings Call Analyzer](skills/data-and-research/earnings-analysis/earnings-call-analyzer.md) | Analyze an earnings call transcript to extract key metrics, management tone, guidance changes, and hidden risks | `earnings` `earnings-call` `transcript-analysis` |
-| [AlphaEar Sentiment](skills/data-and-research/market-data/alphaear-sentiment/SKILL.md) | Analyze financial text sentiment using FinBERT or LLM, returning a scored label (positive/negative/neutral) from -1.0 to 1.0 | `sentiment-analysis` `finbert` `nlp` `chinese-markets` |
-| [AlphaEar Stock](skills/data-and-research/market-data/alphaear-stock/SKILL.md) | Search A-Share and HK stock tickers by name or code and retrieve OHLCV historical price data | `a-shares` `stock-data` `ohlcv` `chinese-markets` |
+| [AlphaEar Sentiment](skills/data-and-research/market-data/alphaear-sentiment/SKILL.md) | Analyze financial text sentiment using FinBERT or LLM, returning a scored label (positive/negative/neutral) from -1.0 to 1.0 | `sentiment-analysis` `finbert` `nlp` |
+| [AlphaEar Stock](skills/data-and-research/market-data/alphaear-stock/SKILL.md) | Search A-Share and HK stock tickers by name or code and retrieve OHLCV historical price data | `a-shares` `stock-data` `ohlcv` |
 <!-- SKILLS:data-and-research:END -->
 
 <details>
@@ -330,10 +355,10 @@ Each skill is self-contained — output from one can be pasted as input to the n
 <!-- SKILLS:tools-and-utilities:START -->
 | Skill | Description | Tags |
 |---|---|---|
+| [AlphaEar Search](skills/tools-and-utilities/api-integrations/alphaear-search/SKILL.md) | Perform finance web searches across multiple engines (Jina, DuckDuckGo, Baidu) and local RAG document retrieval with smart search caching | `web-search` `rag` `multi-engine` |
 | [Compound Interest Calculator](skills/tools-and-utilities/calculators/compound-interest-calculator.md) | Calculate compound interest growth, final balance, and total interest earned for any investment or loan scenario | `compound-interest` `calculator` `savings` |
-| [AlphaEar Logic Visualizer](skills/tools-and-utilities/report-generators/alphaear-logic-visualizer/SKILL.md) | Generate Draw.io XML diagrams to visualize finance logic flows, investment theses, and signal transmission chains | `visualization` `drawio` `logic-flow` `diagrams` |
+| [AlphaEar Logic Visualizer](skills/tools-and-utilities/report-generators/alphaear-logic-visualizer/SKILL.md) | Generate Draw.io XML diagrams to visualize finance logic flows, investment theses, and signal transmission chains | `visualization` `drawio` `logic-flow` |
 | [AlphaEar Reporter](skills/tools-and-utilities/report-generators/alphaear-reporter/SKILL.md) | Plan, write, and assemble professional financial reports by clustering signals into themes, writing analysis sections, and compiling a final structured report | `report-generation` `financial-reports` `signal-clustering` |
-| [AlphaEar Search](skills/tools-and-utilities/api-integrations/alphaear-search/SKILL.md) | Perform finance web searches across multiple engines (Jina, DuckDuckGo, Baidu) and local RAG document retrieval with smart search caching | `web-search` `rag` `multi-engine` `search-cache` |
 | [Skill Creator](skills/tools-and-utilities/report-generators/alphaear-skill-creator/SKILL.md) | Design and package new Claude Code AgentSkills — covers structure, principles (concise, degrees of freedom), and the SKILL.md + resources anatomy | `skill-authoring` `meta` `agent-skills` |
 <!-- SKILLS:tools-and-utilities:END -->
 

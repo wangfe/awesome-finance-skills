@@ -1,6 +1,8 @@
 ---
-name: alphaear-search
-description: Perform finance web searches and local context searches. Use when the user needs general finance info from the web (Jina/DDG/Baidu) or needs to retrieve finance information from a local document store (RAG).
+name: AlphaEar Search
+description: Perform finance web searches across multiple engines (Jina, DuckDuckGo, Baidu) and local RAG document retrieval with smart search caching
+category: tools-and-utilities/api-integrations
+tags: [web-search, rag, multi-engine, search-cache]
 ---
 
 # AlphaEar Search Skill

@@ -1,6 +1,8 @@
 ---
-name: alphaear-logic-visualizer
-description: Create visualize finance logic diagrams (e.g., Draw.io XML) to explain complex finance transmission chains or finance logic flows.
+name: AlphaEar Logic Visualizer
+description: Generate Draw.io XML diagrams to visualize finance logic flows, investment theses, and signal transmission chains
+category: tools-and-utilities/report-generators
+tags: [visualization, drawio, logic-flow, diagrams]
 ---
 
 # AlphaEar Logic Visualizer Skill
