@@ -18,6 +18,7 @@ README = REPO_ROOT / "README.md"
 SKILLS_DIR = REPO_ROOT / "skills"
 
 CATEGORY_ORDER = [
+    "news-and-reporting",
     "personal-finance",
     "investing",
     "financial-modeling",
@@ -28,6 +29,7 @@ CATEGORY_ORDER = [
 ]
 
 CATEGORY_LABELS = {
+    "news-and-reporting": "News & Reporting",
     "personal-finance": "Personal Finance",
     "investing": "Investing",
     "financial-modeling": "Financial Modeling",

@@ -166,6 +166,68 @@ pending:
     category: tools-and-utilities/converters
     tags: [ppp, purchasing-power-parity, currency, exchange-rate]
 
+  # News & Reporting
+  - topic: "Morning Market Pre-Open Briefing"
+    category: news-and-reporting/daily-digest
+    tags: [pre-market, morning-brief, futures, overnight-news]
+
+  - topic: "Sector Rotation News Detector"
+    category: news-and-reporting/sector-news
+    tags: [sector-rotation, sector-news, leadership, relative-strength]
+
+  - topic: "Geopolitical Risk Market Impact Analyzer"
+    category: news-and-reporting/macro-events
+    tags: [geopolitical-risk, macro, safe-haven, oil, commodities]
+
+  - topic: "Earnings Season Weekly Recap"
+    category: news-and-reporting/daily-digest
+    tags: [earnings-season, weekly-recap, beats-misses, guidance]
+
+  - topic: "Economic Calendar Event Analyzer"
+    category: news-and-reporting/macro-events
+    tags: [economic-calendar, cpi, nfp, fomc, macro-events]
+
+  - topic: "Financial News Sentiment Tracker"
+    category: news-and-reporting/market-analysis
+    tags: [news-sentiment, bullish-bearish, market-mood, nlp]
+
+  - topic: "Analyst Upgrade Downgrade Tracker"
+    category: news-and-reporting/market-analysis
+    tags: [analyst-ratings, upgrades, downgrades, price-targets]
+
+  # Portfolio Analysis
+  - topic: "Portfolio Tax-Loss Harvesting Opportunity Finder"
+    category: investing/portfolio-analysis
+    tags: [tax-loss-harvesting, unrealized-losses, wash-sale, tax-efficiency]
+
+  - topic: "Portfolio Stress Test Simulator"
+    category: investing/portfolio-analysis
+    tags: [stress-test, drawdown, crisis-scenarios, 2008, covid-crash]
+
+  - topic: "Dividend Income Portfolio Tracker"
+    category: investing/portfolio-analysis
+    tags: [dividend-income, yield-on-cost, drip, income-investing]
+
+  - topic: "Portfolio Correlation Matrix Builder"
+    category: investing/portfolio-analysis
+    tags: [correlation, diversification, portfolio-risk, covariance]
+
+  - topic: "Portfolio vs Benchmark Comparison"
+    category: investing/portfolio-analysis
+    tags: [benchmark, alpha, beta, tracking-error, information-ratio]
+
+  - topic: "Crypto Portfolio Tracker and Risk Report"
+    category: investing/crypto
+    tags: [crypto, bitcoin, ethereum, portfolio, risk, volatility]
+
+  - topic: "ESG Portfolio Scoring Tool"
+    category: investing/portfolio-management
+    tags: [esg, sustainable-investing, environmental, social, governance]
+
+  - topic: "Options Portfolio Greeks Aggregator"
+    category: investing/options-derivatives
+    tags: [options, greeks, delta-hedge, portfolio-greeks, risk]
+
 completed:
   - topic: "50/30/20 Budget Builder"
     file: skills/personal-finance/budgeting/50-30-20-budget-builder.md
@@ -197,4 +259,20 @@ completed:
 
   - topic: "Compound Interest Calculator"
     file: skills/tools-and-utilities/calculators/compound-interest-calculator.md
+    date: 2026-02-25
+
+  - topic: "Daily Financial News Report"
+    file: skills/news-and-reporting/daily-digest/daily-financial-news-report.md
+    date: 2026-02-25
+
+  - topic: "Stock Portfolio Analyzer"
+    file: skills/investing/portfolio-analysis/stock-portfolio-analyzer.md
+    date: 2026-02-25
+
+  - topic: "Fed Statement & FOMC Analyzer"
+    file: skills/news-and-reporting/market-analysis/fed-statement-analyzer.md
+    date: 2026-02-25
+
+  - topic: "Portfolio Performance Report Generator"
+    file: skills/investing/portfolio-analysis/portfolio-performance-report.md
     date: 2026-02-25

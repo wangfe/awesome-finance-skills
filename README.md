@@ -64,23 +64,47 @@ All skills are free, open source, and ready to drop into Claude Code.
 
 ---
 
+### News & Reporting
+
+<!-- SKILLS:news-and-reporting:START -->
+| Skill | Description | Tags |
+|---|---|---|
+| [Daily Financial News Report](skills/news-and-reporting/daily-digest/daily-financial-news-report.md) | Turn raw news headlines into a structured daily market briefing with macro, equity, sector, and sentiment analysis | `daily-briefing` `financial-news` `market-summary` |
+| [Fed Statement & FOMC Analyzer](skills/news-and-reporting/market-analysis/fed-statement-analyzer.md) | Extract policy signals, language shifts, rate path implications, and market impact from Fed communications | `fed` `fomc` `monetary-policy` `interest-rates` |
+<!-- SKILLS:news-and-reporting:END -->
+
+<details>
+<summary>Subcategories</summary>
+
+- `daily-digest/` — Morning briefs, end-of-day recaps, earnings season summaries
+- `market-analysis/` — Fed/central bank analysis, analyst upgrade/downgrade trackers
+- `macro-events/` — Economic calendar analysis, geopolitical risk impact
+- `sector-news/` — Sector rotation detectors, industry news synthesizers
+
+</details>
+
+---
+
 ### Investing
 
 <!-- SKILLS:investing:START -->
 | Skill | Description | Tags |
 |---|---|---|
 | [Buffett-Style Stock Checklist](skills/investing/stock-analysis/buffett-checklist.md) | Scorecard for evaluating stocks against Warren Buffett's core criteria | `fundamental-analysis` `value-investing` `checklist` |
+| [Stock Portfolio Analyzer](skills/investing/portfolio-analysis/stock-portfolio-analyzer.md) | Full portfolio health report: performance, sector allocation, concentration risk, and rebalancing recommendations | `portfolio-analysis` `allocation` `risk` `diversification` |
+| [Portfolio Performance Report Generator](skills/investing/portfolio-analysis/portfolio-performance-report.md) | Generate a periodic portfolio performance report with returns, benchmark comparison, attribution, and commentary | `portfolio-report` `performance` `benchmark` `attribution` |
 <!-- SKILLS:investing:END -->
 
 <details>
 <summary>Subcategories</summary>
 
+- `portfolio-analysis/` — Performance reports, allocation analysis, stress tests
 - `stock-analysis/` — Fundamental screens, checklist evaluators
 - `etf-funds/` — ETF comparison, expense ratio analyzers
 - `options-derivatives/` — Options pricing, Greeks explainers, strategy builders
 - `crypto/` — Token analysis, on-chain metrics
 - `real-estate/` — Rental yield calculators, cap rate analyzers
-- `portfolio-management/` — Allocation analyzers, rebalancing tools
+- `portfolio-management/` — Allocation advisors, rebalancing tools
 
 </details>
 
