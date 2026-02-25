@@ -1,278 +1,432 @@
 pending:
-  # Personal Finance
-  - topic: "Debt Avalanche vs Snowball Payoff Planner"
-    category: personal-finance/debt-management
-    tags: [debt, avalanche, snowball, payoff-planner]
-
-  - topic: "Emergency Fund Calculator"
-    category: personal-finance/savings-goals
-    tags: [emergency-fund, savings, liquidity]
-
-  - topic: "Net Worth Tracker"
-    category: personal-finance/savings-goals
-    tags: [net-worth, assets, liabilities, tracking]
-
-  - topic: "US Tax Bracket Estimator"
-    category: personal-finance/tax-personal
-    tags: [tax, federal-tax, brackets, tax-planning]
-
-  - topic: "Home Affordability Calculator"
-    category: personal-finance/savings-goals
-    tags: [home-buying, mortgage, affordability, real-estate]
-
-  - topic: "Student Loan Payoff Optimizer"
-    category: personal-finance/debt-management
-    tags: [student-loans, payoff, refinancing, income-based-repayment]
-
-  # Investing
-  - topic: "ETF Expense Ratio Comparator"
-    category: investing/etf-funds
-    tags: [etf, expense-ratio, index-funds, cost-comparison]
-
-  - topic: "Dividend Reinvestment (DRIP) Calculator"
-    category: investing/stock-analysis
-    tags: [dividends, drip, reinvestment, compound-growth]
-
-  - topic: "Black-Scholes Options Pricing Model"
-    category: investing/options-derivatives
-    tags: [options, black-scholes, pricing, greeks]
-
-  - topic: "Rental Property Cash Flow Analyzer"
-    category: investing/real-estate
-    tags: [rental-property, cash-flow, cap-rate, real-estate-investing]
-
-  - topic: "Portfolio Rebalancing Advisor"
-    category: investing/portfolio-management
-    tags: [rebalancing, asset-allocation, portfolio, drift]
-
-  - topic: "Margin of Safety Calculator"
-    category: investing/stock-analysis
-    tags: [margin-of-safety, value-investing, intrinsic-value, graham]
-
-  - topic: "Dividend Stock Screener"
-    category: investing/stock-analysis
-    tags: [dividends, dividend-yield, payout-ratio, screening]
-
-  # Financial Modeling
-  - topic: "LBO Model Builder"
-    category: financial-modeling/lbo-analysis
-    tags: [lbo, leveraged-buyout, private-equity, returns]
-
-  - topic: "Comparable Company Analysis (Comps)"
-    category: financial-modeling/comparable-analysis
-    tags: [comps, ev-ebitda, multiples, valuation]
-
-  - topic: "Revenue Forecast Builder"
-    category: financial-modeling/forecasting
-    tags: [revenue-forecast, top-down, bottom-up, growth-modeling]
-
-  - topic: "Scenario Analysis Builder (Bull Base Bear)"
-    category: financial-modeling/scenario-modeling
-    tags: [scenario-analysis, bull-case, bear-case, sensitivity]
-
-  - topic: "Working Capital Model"
-    category: financial-modeling/forecasting
-    tags: [working-capital, dso, dpo, dsi, cash-conversion-cycle]
-
-  - topic: "Three-Statement Financial Model Connector"
-    category: financial-modeling/scenario-modeling
-    tags: [three-statement, income-statement, balance-sheet, cash-flow]
-
-  # Accounting
-  - topic: "Cash Flow Statement Builder"
-    category: accounting/financial-statements
-    tags: [cash-flow-statement, operating, investing, financing]
-
-  - topic: "Business Tax Deduction Finder"
-    category: accounting/tax-business
-    tags: [business-tax, deductions, expenses, tax-planning]
-
-  - topic: "Accounts Receivable Aging Report Analyzer"
-    category: accounting/bookkeeping
-    tags: [accounts-receivable, aging-report, collections, cash-flow]
-
-  - topic: "Profit and Loss Statement Summarizer"
-    category: accounting/financial-statements
-    tags: [profit-loss, income-statement, revenue, expenses]
-
-  - topic: "Break-Even Analysis Calculator"
-    category: accounting/ratio-analysis
-    tags: [break-even, fixed-costs, variable-costs, contribution-margin]
-
-  # Trading
-  - topic: "RSI and MACD Signal Interpreter"
-    category: trading/technical-analysis
-    tags: [rsi, macd, technical-analysis, momentum, signals]
-
-  - topic: "Options Greeks Calculator"
-    category: trading/quantitative
-    tags: [greeks, delta, gamma, theta, vega, options]
-
-  - topic: "Sharpe Ratio and Risk-Adjusted Return Calculator"
-    category: trading/risk-management
-    tags: [sharpe-ratio, risk-adjusted-return, volatility, portfolio]
-
-  - topic: "Maximum Drawdown Analyzer"
-    category: trading/risk-management
-    tags: [drawdown, max-drawdown, risk, peak-trough]
-
-  - topic: "ATR Volatility Analyzer"
-    category: trading/technical-analysis
-    tags: [atr, volatility, average-true-range, technical-analysis]
-
-  - topic: "Backtesting Performance Report"
-    category: trading/backtesting
-    tags: [backtesting, win-rate, expectancy, performance-metrics]
-
-  # Data & Research
-  - topic: "SEC 10-K Risk Factor Extractor"
-    category: data-and-research/sec-filings
-    tags: [10-k, sec-filings, risk-factors, annual-report]
-
-  - topic: "Macro Economic Indicator Dashboard"
-    category: data-and-research/economic-indicators
-    tags: [cpi, gdp, pmi, macro, economic-indicators]
-
-  - topic: "IPO Prospectus Analyzer"
-    category: data-and-research/sec-filings
-    tags: [ipo, s-1, prospectus, risk-factors, valuation]
-
-  - topic: "Analyst Estimate Tracker and Surprise Calculator"
-    category: data-and-research/earnings-analysis
-    tags: [analyst-estimates, earnings-surprise, consensus, eps]
-
-  - topic: "Insider Trading Signal Analyzer"
-    category: data-and-research/market-data
-    tags: [insider-trading, form-4, sec, insider-buys-sells]
-
-  # Tools & Utilities
-  - topic: "Loan Amortization Calculator"
-    category: tools-and-utilities/calculators
-    tags: [amortization, mortgage, loan, monthly-payment]
-
-  - topic: "Bond Yield and Duration Calculator"
-    category: tools-and-utilities/calculators
-    tags: [bonds, yield-to-maturity, duration, fixed-income]
-
-  - topic: "Inflation-Adjusted Return Calculator"
-    category: tools-and-utilities/calculators
-    tags: [inflation, real-return, purchasing-power, cpi]
-
-  - topic: "Tax-Equivalent Yield Calculator"
-    category: tools-and-utilities/calculators
-    tags: [tax-equivalent-yield, municipal-bonds, tax-bracket, after-tax]
-
-  - topic: "Currency Purchasing Power Parity Calculator"
-    category: tools-and-utilities/converters
-    tags: [ppp, purchasing-power-parity, currency, exchange-rate]
-
-  # News & Reporting
-  - topic: "Morning Market Pre-Open Briefing"
-    category: news-and-reporting/daily-digest
-    tags: [pre-market, morning-brief, futures, overnight-news]
-
-  - topic: "Sector Rotation News Detector"
-    category: news-and-reporting/sector-news
-    tags: [sector-rotation, sector-news, leadership, relative-strength]
-
-  - topic: "Geopolitical Risk Market Impact Analyzer"
-    category: news-and-reporting/macro-events
-    tags: [geopolitical-risk, macro, safe-haven, oil, commodities]
-
-  - topic: "Earnings Season Weekly Recap"
-    category: news-and-reporting/daily-digest
-    tags: [earnings-season, weekly-recap, beats-misses, guidance]
-
-  - topic: "Economic Calendar Event Analyzer"
-    category: news-and-reporting/macro-events
-    tags: [economic-calendar, cpi, nfp, fomc, macro-events]
-
-  - topic: "Financial News Sentiment Tracker"
-    category: news-and-reporting/market-analysis
-    tags: [news-sentiment, bullish-bearish, market-mood, nlp]
-
-  - topic: "Analyst Upgrade Downgrade Tracker"
-    category: news-and-reporting/market-analysis
-    tags: [analyst-ratings, upgrades, downgrades, price-targets]
-
-  # Portfolio Analysis
-  - topic: "Portfolio Tax-Loss Harvesting Opportunity Finder"
-    category: investing/portfolio-analysis
-    tags: [tax-loss-harvesting, unrealized-losses, wash-sale, tax-efficiency]
-
-  - topic: "Portfolio Stress Test Simulator"
-    category: investing/portfolio-analysis
-    tags: [stress-test, drawdown, crisis-scenarios, 2008, covid-crash]
-
-  - topic: "Dividend Income Portfolio Tracker"
-    category: investing/portfolio-analysis
-    tags: [dividend-income, yield-on-cost, drip, income-investing]
-
-  - topic: "Portfolio Correlation Matrix Builder"
-    category: investing/portfolio-analysis
-    tags: [correlation, diversification, portfolio-risk, covariance]
-
-  - topic: "Portfolio vs Benchmark Comparison"
-    category: investing/portfolio-analysis
-    tags: [benchmark, alpha, beta, tracking-error, information-ratio]
-
-  - topic: "Crypto Portfolio Tracker and Risk Report"
-    category: investing/crypto
-    tags: [crypto, bitcoin, ethereum, portfolio, risk, volatility]
-
-  - topic: "ESG Portfolio Scoring Tool"
-    category: investing/portfolio-management
-    tags: [esg, sustainable-investing, environmental, social, governance]
-
-  - topic: "Options Portfolio Greeks Aggregator"
-    category: investing/options-derivatives
-    tags: [options, greeks, delta-hedge, portfolio-greeks, risk]
-
+- topic: Emergency Fund Calculator
+  category: personal-finance/savings-goals
+  tags:
+  - emergency-fund
+  - savings
+  - liquidity
+- topic: Net Worth Tracker
+  category: personal-finance/savings-goals
+  tags:
+  - net-worth
+  - assets
+  - liabilities
+  - tracking
+- topic: US Tax Bracket Estimator
+  category: personal-finance/tax-personal
+  tags:
+  - tax
+  - federal-tax
+  - brackets
+  - tax-planning
+- topic: Home Affordability Calculator
+  category: personal-finance/savings-goals
+  tags:
+  - home-buying
+  - mortgage
+  - affordability
+  - real-estate
+- topic: Student Loan Payoff Optimizer
+  category: personal-finance/debt-management
+  tags:
+  - student-loans
+  - payoff
+  - refinancing
+  - income-based-repayment
+- topic: ETF Expense Ratio Comparator
+  category: investing/etf-funds
+  tags:
+  - etf
+  - expense-ratio
+  - index-funds
+  - cost-comparison
+- topic: Dividend Reinvestment (DRIP) Calculator
+  category: investing/stock-analysis
+  tags:
+  - dividends
+  - drip
+  - reinvestment
+  - compound-growth
+- topic: Black-Scholes Options Pricing Model
+  category: investing/options-derivatives
+  tags:
+  - options
+  - black-scholes
+  - pricing
+  - greeks
+- topic: Rental Property Cash Flow Analyzer
+  category: investing/real-estate
+  tags:
+  - rental-property
+  - cash-flow
+  - cap-rate
+  - real-estate-investing
+- topic: Portfolio Rebalancing Advisor
+  category: investing/portfolio-management
+  tags:
+  - rebalancing
+  - asset-allocation
+  - portfolio
+  - drift
+- topic: Margin of Safety Calculator
+  category: investing/stock-analysis
+  tags:
+  - margin-of-safety
+  - value-investing
+  - intrinsic-value
+  - graham
+- topic: Dividend Stock Screener
+  category: investing/stock-analysis
+  tags:
+  - dividends
+  - dividend-yield
+  - payout-ratio
+  - screening
+- topic: LBO Model Builder
+  category: financial-modeling/lbo-analysis
+  tags:
+  - lbo
+  - leveraged-buyout
+  - private-equity
+  - returns
+- topic: Comparable Company Analysis (Comps)
+  category: financial-modeling/comparable-analysis
+  tags:
+  - comps
+  - ev-ebitda
+  - multiples
+  - valuation
+- topic: Revenue Forecast Builder
+  category: financial-modeling/forecasting
+  tags:
+  - revenue-forecast
+  - top-down
+  - bottom-up
+  - growth-modeling
+- topic: Scenario Analysis Builder (Bull Base Bear)
+  category: financial-modeling/scenario-modeling
+  tags:
+  - scenario-analysis
+  - bull-case
+  - bear-case
+  - sensitivity
+- topic: Working Capital Model
+  category: financial-modeling/forecasting
+  tags:
+  - working-capital
+  - dso
+  - dpo
+  - dsi
+  - cash-conversion-cycle
+- topic: Three-Statement Financial Model Connector
+  category: financial-modeling/scenario-modeling
+  tags:
+  - three-statement
+  - income-statement
+  - balance-sheet
+  - cash-flow
+- topic: Cash Flow Statement Builder
+  category: accounting/financial-statements
+  tags:
+  - cash-flow-statement
+  - operating
+  - investing
+  - financing
+- topic: Business Tax Deduction Finder
+  category: accounting/tax-business
+  tags:
+  - business-tax
+  - deductions
+  - expenses
+  - tax-planning
+- topic: Accounts Receivable Aging Report Analyzer
+  category: accounting/bookkeeping
+  tags:
+  - accounts-receivable
+  - aging-report
+  - collections
+  - cash-flow
+- topic: Profit and Loss Statement Summarizer
+  category: accounting/financial-statements
+  tags:
+  - profit-loss
+  - income-statement
+  - revenue
+  - expenses
+- topic: Break-Even Analysis Calculator
+  category: accounting/ratio-analysis
+  tags:
+  - break-even
+  - fixed-costs
+  - variable-costs
+  - contribution-margin
+- topic: RSI and MACD Signal Interpreter
+  category: trading/technical-analysis
+  tags:
+  - rsi
+  - macd
+  - technical-analysis
+  - momentum
+  - signals
+- topic: Options Greeks Calculator
+  category: trading/quantitative
+  tags:
+  - greeks
+  - delta
+  - gamma
+  - theta
+  - vega
+  - options
+- topic: Sharpe Ratio and Risk-Adjusted Return Calculator
+  category: trading/risk-management
+  tags:
+  - sharpe-ratio
+  - risk-adjusted-return
+  - volatility
+  - portfolio
+- topic: Maximum Drawdown Analyzer
+  category: trading/risk-management
+  tags:
+  - drawdown
+  - max-drawdown
+  - risk
+  - peak-trough
+- topic: ATR Volatility Analyzer
+  category: trading/technical-analysis
+  tags:
+  - atr
+  - volatility
+  - average-true-range
+  - technical-analysis
+- topic: Backtesting Performance Report
+  category: trading/backtesting
+  tags:
+  - backtesting
+  - win-rate
+  - expectancy
+  - performance-metrics
+- topic: SEC 10-K Risk Factor Extractor
+  category: data-and-research/sec-filings
+  tags:
+  - 10-k
+  - sec-filings
+  - risk-factors
+  - annual-report
+- topic: Macro Economic Indicator Dashboard
+  category: data-and-research/economic-indicators
+  tags:
+  - cpi
+  - gdp
+  - pmi
+  - macro
+  - economic-indicators
+- topic: IPO Prospectus Analyzer
+  category: data-and-research/sec-filings
+  tags:
+  - ipo
+  - s-1
+  - prospectus
+  - risk-factors
+  - valuation
+- topic: Analyst Estimate Tracker and Surprise Calculator
+  category: data-and-research/earnings-analysis
+  tags:
+  - analyst-estimates
+  - earnings-surprise
+  - consensus
+  - eps
+- topic: Insider Trading Signal Analyzer
+  category: data-and-research/market-data
+  tags:
+  - insider-trading
+  - form-4
+  - sec
+  - insider-buys-sells
+- topic: Loan Amortization Calculator
+  category: tools-and-utilities/calculators
+  tags:
+  - amortization
+  - mortgage
+  - loan
+  - monthly-payment
+- topic: Bond Yield and Duration Calculator
+  category: tools-and-utilities/calculators
+  tags:
+  - bonds
+  - yield-to-maturity
+  - duration
+  - fixed-income
+- topic: Inflation-Adjusted Return Calculator
+  category: tools-and-utilities/calculators
+  tags:
+  - inflation
+  - real-return
+  - purchasing-power
+  - cpi
+- topic: Tax-Equivalent Yield Calculator
+  category: tools-and-utilities/calculators
+  tags:
+  - tax-equivalent-yield
+  - municipal-bonds
+  - tax-bracket
+  - after-tax
+- topic: Currency Purchasing Power Parity Calculator
+  category: tools-and-utilities/converters
+  tags:
+  - ppp
+  - purchasing-power-parity
+  - currency
+  - exchange-rate
+- topic: Morning Market Pre-Open Briefing
+  category: news-and-reporting/daily-digest
+  tags:
+  - pre-market
+  - morning-brief
+  - futures
+  - overnight-news
+- topic: Sector Rotation News Detector
+  category: news-and-reporting/sector-news
+  tags:
+  - sector-rotation
+  - sector-news
+  - leadership
+  - relative-strength
+- topic: Geopolitical Risk Market Impact Analyzer
+  category: news-and-reporting/macro-events
+  tags:
+  - geopolitical-risk
+  - macro
+  - safe-haven
+  - oil
+  - commodities
+- topic: Earnings Season Weekly Recap
+  category: news-and-reporting/daily-digest
+  tags:
+  - earnings-season
+  - weekly-recap
+  - beats-misses
+  - guidance
+- topic: Economic Calendar Event Analyzer
+  category: news-and-reporting/macro-events
+  tags:
+  - economic-calendar
+  - cpi
+  - nfp
+  - fomc
+  - macro-events
+- topic: Financial News Sentiment Tracker
+  category: news-and-reporting/market-analysis
+  tags:
+  - news-sentiment
+  - bullish-bearish
+  - market-mood
+  - nlp
+- topic: Analyst Upgrade Downgrade Tracker
+  category: news-and-reporting/market-analysis
+  tags:
+  - analyst-ratings
+  - upgrades
+  - downgrades
+  - price-targets
+- topic: Portfolio Tax-Loss Harvesting Opportunity Finder
+  category: investing/portfolio-analysis
+  tags:
+  - tax-loss-harvesting
+  - unrealized-losses
+  - wash-sale
+  - tax-efficiency
+- topic: Portfolio Stress Test Simulator
+  category: investing/portfolio-analysis
+  tags:
+  - stress-test
+  - drawdown
+  - crisis-scenarios
+  - 2008
+  - covid-crash
+- topic: Dividend Income Portfolio Tracker
+  category: investing/portfolio-analysis
+  tags:
+  - dividend-income
+  - yield-on-cost
+  - drip
+  - income-investing
+- topic: Portfolio Correlation Matrix Builder
+  category: investing/portfolio-analysis
+  tags:
+  - correlation
+  - diversification
+  - portfolio-risk
+  - covariance
+- topic: Portfolio vs Benchmark Comparison
+  category: investing/portfolio-analysis
+  tags:
+  - benchmark
+  - alpha
+  - beta
+  - tracking-error
+  - information-ratio
+- topic: Crypto Portfolio Tracker and Risk Report
+  category: investing/crypto
+  tags:
+  - crypto
+  - bitcoin
+  - ethereum
+  - portfolio
+  - risk
+  - volatility
+- topic: ESG Portfolio Scoring Tool
+  category: investing/portfolio-management
+  tags:
+  - esg
+  - sustainable-investing
+  - environmental
+  - social
+  - governance
+- topic: Options Portfolio Greeks Aggregator
+  category: investing/options-derivatives
+  tags:
+  - options
+  - greeks
+  - delta-hedge
+  - portfolio-greeks
+  - risk
 completed:
-  - topic: "50/30/20 Budget Builder"
-    file: skills/personal-finance/budgeting/50-30-20-budget-builder.md
-    date: 2026-02-25
-
-  - topic: "FIRE Number Calculator"
-    file: skills/personal-finance/fire-planning/fire-number-calculator.md
-    date: 2026-02-25
-
-  - topic: "Buffett-Style Stock Checklist"
-    file: skills/investing/stock-analysis/buffett-checklist.md
-    date: 2026-02-25
-
-  - topic: "DCF Model Builder"
-    file: skills/financial-modeling/dcf-valuation/dcf-model-builder.md
-    date: 2026-02-25
-
-  - topic: "Financial Ratio Analyzer"
-    file: skills/accounting/ratio-analysis/financial-ratio-analyzer.md
-    date: 2026-02-25
-
-  - topic: "Position Sizing Calculator"
-    file: skills/trading/risk-management/position-sizing-calculator.md
-    date: 2026-02-25
-
-  - topic: "Earnings Call Analyzer"
-    file: skills/data-and-research/earnings-analysis/earnings-call-analyzer.md
-    date: 2026-02-25
-
-  - topic: "Compound Interest Calculator"
-    file: skills/tools-and-utilities/calculators/compound-interest-calculator.md
-    date: 2026-02-25
-
-  - topic: "Daily Financial News Report"
-    file: skills/news-and-reporting/daily-digest/daily-financial-news-report.md
-    date: 2026-02-25
-
-  - topic: "Stock Portfolio Analyzer"
-    file: skills/investing/portfolio-analysis/stock-portfolio-analyzer.md
-    date: 2026-02-25
-
-  - topic: "Fed Statement & FOMC Analyzer"
-    file: skills/news-and-reporting/market-analysis/fed-statement-analyzer.md
-    date: 2026-02-25
-
-  - topic: "Portfolio Performance Report Generator"
-    file: skills/investing/portfolio-analysis/portfolio-performance-report.md
-    date: 2026-02-25
+- topic: 50/30/20 Budget Builder
+  file: skills/personal-finance/budgeting/50-30-20-budget-builder.md
+  date: 2026-02-25
+- topic: FIRE Number Calculator
+  file: skills/personal-finance/fire-planning/fire-number-calculator.md
+  date: 2026-02-25
+- topic: Buffett-Style Stock Checklist
+  file: skills/investing/stock-analysis/buffett-checklist.md
+  date: 2026-02-25
+- topic: DCF Model Builder
+  file: skills/financial-modeling/dcf-valuation/dcf-model-builder.md
+  date: 2026-02-25
+- topic: Financial Ratio Analyzer
+  file: skills/accounting/ratio-analysis/financial-ratio-analyzer.md
+  date: 2026-02-25
+- topic: Position Sizing Calculator
+  file: skills/trading/risk-management/position-sizing-calculator.md
+  date: 2026-02-25
+- topic: Earnings Call Analyzer
+  file: skills/data-and-research/earnings-analysis/earnings-call-analyzer.md
+  date: 2026-02-25
+- topic: Compound Interest Calculator
+  file: skills/tools-and-utilities/calculators/compound-interest-calculator.md
+  date: 2026-02-25
+- topic: Daily Financial News Report
+  file: skills/news-and-reporting/daily-digest/daily-financial-news-report.md
+  date: 2026-02-25
+- topic: Stock Portfolio Analyzer
+  file: skills/investing/portfolio-analysis/stock-portfolio-analyzer.md
+  date: 2026-02-25
+- topic: Fed Statement & FOMC Analyzer
+  file: skills/news-and-reporting/market-analysis/fed-statement-analyzer.md
+  date: 2026-02-25
+- topic: Portfolio Performance Report Generator
+  file: skills/investing/portfolio-analysis/portfolio-performance-report.md
+  date: 2026-02-25
+- topic: Debt Avalanche vs Snowball Payoff Planner
+  file: skills/personal-finance/debt-management/debt-avalanche-vs-snowball-payoff-planner.md
+  date: '2026-02-25'

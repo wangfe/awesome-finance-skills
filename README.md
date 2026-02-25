@@ -2,7 +2,7 @@
 
 > A curated, open collection of Claude Code skills for finance — personal finance, investing, financial modeling, accounting, trading, and more.
 
-[![Skills](https://img.shields.io/badge/skills-12-blue)](#skill-index)
+[![Skills](https://img.shields.io/badge/skills-13-blue)](#skill-index)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 
@@ -175,8 +175,9 @@ Each skill is self-contained — output from one can be pasted as input to the n
 <!-- SKILLS:personal-finance:START -->
 | Skill | Description | Tags |
 |---|---|---|
-| [50/30/20 Budget Builder](skills/personal-finance/budgeting/50-30-20-budget-builder.md) | Build a personalized monthly budget and get rebalancing suggestions | `budgeting` `50-30-20` `beginner` |
-| [FIRE Number Calculator](skills/personal-finance/fire-planning/fire-number-calculator.md) | Calculate your FIRE number, years to FI, and compare FIRE variants | `fire` `financial-independence` `4-percent-rule` |
+| [50/30/20 Budget Builder](skills/personal-finance/budgeting/50-30-20-budget-builder.md) | Build a personalized monthly budget using the 50/30/20 rule given the user's income and expenses | `budgeting` `50-30-20` `monthly-budget` |
+| [Debt Avalanche vs Snowball Payoff Planner](skills/personal-finance/debt-management/debt-avalanche-vs-snowball-payoff-planner.md) | Compares the avalanche and snowball debt payoff strategies side-by-side, calculating total interest, payoff timelines, and monthly payment schedules for each method. | `debt` `avalanche` `snowball` |
+| [FIRE Number Calculator](skills/personal-finance/fire-planning/fire-number-calculator.md) | Calculate your Financial Independence / Retire Early (FIRE) number and years to FI based on savings rate, expenses, and expected returns | `fire` `financial-independence` `retire-early` |
 <!-- SKILLS:personal-finance:END -->
 
 <details>
@@ -197,8 +198,8 @@ Each skill is self-contained — output from one can be pasted as input to the n
 <!-- SKILLS:news-and-reporting:START -->
 | Skill | Description | Tags |
 |---|---|---|
-| [Daily Financial News Report](skills/news-and-reporting/daily-digest/daily-financial-news-report.md) | Turn raw news headlines into a structured daily market briefing with macro, equity, sector, and sentiment analysis | `daily-briefing` `financial-news` `market-summary` |
-| [Fed Statement & FOMC Analyzer](skills/news-and-reporting/market-analysis/fed-statement-analyzer.md) | Extract policy signals, language shifts, rate path implications, and market impact from Fed communications | `fed` `fomc` `monetary-policy` `interest-rates` |
+| [Daily Financial News Report](skills/news-and-reporting/daily-digest/daily-financial-news-report.md) | Analyze a batch of financial news headlines and articles to produce a structured daily market briefing with key themes, market-moving events, and investment implications | `daily-briefing` `financial-news` `market-summary` |
+| [Fed Statement & FOMC Analyzer](skills/news-and-reporting/market-analysis/fed-statement-analyzer.md) | Analyze Federal Reserve statements, FOMC minutes, or Fed chair speeches to extract policy signals, rate path implications, and market impact | `fed` `fomc` `monetary-policy` |
 <!-- SKILLS:news-and-reporting:END -->
 
 <details>
@@ -218,9 +219,9 @@ Each skill is self-contained — output from one can be pasted as input to the n
 <!-- SKILLS:investing:START -->
 | Skill | Description | Tags |
 |---|---|---|
-| [Buffett-Style Stock Checklist](skills/investing/stock-analysis/buffett-checklist.md) | Scorecard for evaluating stocks against Warren Buffett's core criteria | `fundamental-analysis` `value-investing` `checklist` |
-| [Stock Portfolio Analyzer](skills/investing/portfolio-analysis/stock-portfolio-analyzer.md) | Full portfolio health report: performance, sector allocation, concentration risk, and rebalancing recommendations | `portfolio-analysis` `allocation` `risk` `diversification` |
-| [Portfolio Performance Report Generator](skills/investing/portfolio-analysis/portfolio-performance-report.md) | Generate a periodic portfolio performance report with returns, benchmark comparison, attribution, and commentary | `portfolio-report` `performance` `benchmark` `attribution` |
+| [Portfolio Performance Report Generator](skills/investing/portfolio-analysis/portfolio-performance-report.md) | Generate a detailed periodic portfolio performance report with returns, benchmark comparison, attribution, risk metrics, and commentary | `portfolio-report` `performance` `benchmark` |
+| [Stock Portfolio Analyzer](skills/investing/portfolio-analysis/stock-portfolio-analyzer.md) | Analyze a stock portfolio's performance, allocation, risk concentration, sector exposure, and key metrics — and generate a comprehensive portfolio health report | `portfolio-analysis` `stock-portfolio` `performance` |
+| [Buffett-Style Stock Checklist](skills/investing/stock-analysis/buffett-checklist.md) | Evaluate a stock using Warren Buffett's fundamental investing criteria and produce a pass/fail scorecard | `fundamental-analysis` `value-investing` `buffett` |
 <!-- SKILLS:investing:END -->
 
 <details>
@@ -243,7 +244,7 @@ Each skill is self-contained — output from one can be pasted as input to the n
 <!-- SKILLS:financial-modeling:START -->
 | Skill | Description | Tags |
 |---|---|---|
-| [DCF Model Builder](skills/financial-modeling/dcf-valuation/dcf-model-builder.md) | Build a DCF valuation model with sensitivity analysis from user-supplied inputs | `dcf` `valuation` `intrinsic-value` |
+| [DCF Model Builder](skills/financial-modeling/dcf-valuation/dcf-model-builder.md) | Build a discounted cash flow valuation from user-supplied financials and assumptions to estimate intrinsic value per share | `dcf` `valuation` `intrinsic-value` |
 <!-- SKILLS:financial-modeling:END -->
 
 <details>
@@ -264,7 +265,7 @@ Each skill is self-contained — output from one can be pasted as input to the n
 <!-- SKILLS:accounting:START -->
 | Skill | Description | Tags |
 |---|---|---|
-| [Financial Ratio Analyzer](skills/accounting/ratio-analysis/financial-ratio-analyzer.md) | Calculate and interpret liquidity, profitability, leverage, and efficiency ratios | `financial-ratios` `fundamental-analysis` `profitability` |
+| [Financial Ratio Analyzer](skills/accounting/ratio-analysis/financial-ratio-analyzer.md) | Calculate and interpret the full suite of financial ratios from a company's income statement, balance sheet, and cash flow statement | `financial-ratios` `fundamental-analysis` `accounting` |
 <!-- SKILLS:accounting:END -->
 
 <details>
@@ -284,7 +285,7 @@ Each skill is self-contained — output from one can be pasted as input to the n
 <!-- SKILLS:trading:START -->
 | Skill | Description | Tags |
 |---|---|---|
-| [Position Sizing Calculator](skills/trading/risk-management/position-sizing-calculator.md) | Calculate trade size using Fixed Risk, Kelly Criterion, and ATR-based methods | `position-sizing` `risk-management` `kelly-criterion` |
+| [Position Sizing Calculator](skills/trading/risk-management/position-sizing-calculator.md) | Calculate optimal trade position size using risk-based methods (fixed dollar risk, Kelly Criterion, volatility-adjusted) | `position-sizing` `risk-management` `kelly-criterion` |
 <!-- SKILLS:trading:END -->
 
 <details>
@@ -304,7 +305,7 @@ Each skill is self-contained — output from one can be pasted as input to the n
 <!-- SKILLS:data-and-research:START -->
 | Skill | Description | Tags |
 |---|---|---|
-| [Earnings Call Analyzer](skills/data-and-research/earnings-analysis/earnings-call-analyzer.md) | Extract key metrics, guidance, sentiment, and risks from an earnings transcript | `earnings` `transcript-analysis` `sentiment` |
+| [Earnings Call Analyzer](skills/data-and-research/earnings-analysis/earnings-call-analyzer.md) | Analyze an earnings call transcript to extract key metrics, management tone, guidance changes, and hidden risks | `earnings` `earnings-call` `transcript-analysis` |
 <!-- SKILLS:data-and-research:END -->
 
 <details>
@@ -324,7 +325,7 @@ Each skill is self-contained — output from one can be pasted as input to the n
 <!-- SKILLS:tools-and-utilities:START -->
 | Skill | Description | Tags |
 |---|---|---|
-| [Compound Interest Calculator](skills/tools-and-utilities/calculators/compound-interest-calculator.md) | Calculate growth with compound interest, regular contributions, and milestone projections | `compound-interest` `calculator` `savings` |
+| [Compound Interest Calculator](skills/tools-and-utilities/calculators/compound-interest-calculator.md) | Calculate compound interest growth, final balance, and total interest earned for any investment or loan scenario | `compound-interest` `calculator` `savings` |
 <!-- SKILLS:tools-and-utilities:END -->
 
 <details>
