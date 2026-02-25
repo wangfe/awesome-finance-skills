@@ -97,8 +97,15 @@ def build_table(skills: list[dict]) -> str:
     return "\n".join(lines) + "\n"
 
 
-def update_readme(groups: dict[str, list[dict]]) -> None:
+def update_readme(groups: dict[str, list[dict]], total: int) -> None:
     content = README.read_text(encoding="utf-8")
+
+    # Update skills badge count
+    content = re.sub(
+        r"!\[Skills\]\(https://img\.shields\.io/badge/skills-\d+-blue\)",
+        f"![Skills](https://img.shields.io/badge/skills-{total}-blue)",
+        content,
+    )
 
     for cat, skills in groups.items():
         start_marker = f"<!-- SKILLS:{cat}:START -->"
@@ -121,7 +128,7 @@ def main() -> None:
     groups = collect_skills()
     total = sum(len(v) for v in groups.values())
     print(f"Found {total} skills across {len(groups)} categories.")
-    update_readme(groups)
+    update_readme(groups, total)
 
 
 if __name__ == "__main__":
