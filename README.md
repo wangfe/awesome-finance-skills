@@ -40,6 +40,134 @@ All skills are free, open source, and ready to drop into Claude Code.
 
 ---
 
+## How to Use Skills
+
+There are three ways to use any skill in this collection, depending on how you work with Claude.
+
+---
+
+### Method 1 — Install as a Claude Code Skill (Recommended)
+
+Claude Code can load `.md` files as persistent named skills that you invoke with a `/` command.
+
+**Step 1 — Copy the skill file to your skills directory:**
+
+```bash
+# Create the directory if it doesn't exist
+mkdir -p ~/.claude/skills
+
+# Download a skill directly from this repo (example)
+curl -o ~/.claude/skills/daily-news-report.md \
+  https://raw.githubusercontent.com/wangfe/awesome-finance-skills/main/skills/news-and-reporting/daily-digest/daily-financial-news-report.md
+```
+
+Or clone the whole repo and symlink the skills you want:
+
+```bash
+git clone https://github.com/wangfe/awesome-finance-skills.git ~/awesome-finance-skills
+
+# Symlink individual skills into your Claude skills directory
+ln -s ~/awesome-finance-skills/skills/investing/portfolio-analysis/stock-portfolio-analyzer.md \
+      ~/.claude/skills/stock-portfolio-analyzer.md
+```
+
+**Step 2 — Use the skill inside Claude Code:**
+
+```
+/stock-portfolio-analyzer
+
+Holdings:
+AAPL  50 shares  cost $155  current $189
+MSFT  30 shares  cost $290  current $415
+...
+```
+
+Claude will automatically apply the skill's prompt and produce the full analysis.
+
+---
+
+### Method 2 — Copy & Paste into Any Claude Interface
+
+No installation needed. Works in Claude.ai, Claude Code, or the API.
+
+1. Open the skill's `.md` file in this repo.
+2. Scroll to the `## Skill Prompt` section.
+3. Copy the prompt text inside the code block.
+4. Paste it at the start of your Claude conversation, followed by your data.
+
+**Example:**
+
+```
+[paste the full skill prompt here]
+
+---
+
+My data:
+Monthly income: $6,500
+Expenses:
+- Rent: $1,800
+- Groceries: $450
+...
+```
+
+---
+
+### Method 3 — Use via the Claude API
+
+Integrate skills into your own apps or scripts by passing the skill prompt as a system prompt.
+
+```python
+import anthropic
+from pathlib import Path
+
+# Load the skill prompt
+skill_file = Path("skills/personal-finance/budgeting/50-30-20-budget-builder.md")
+content = skill_file.read_text()
+
+# Extract the prompt block between the ``` fences in ## Skill Prompt
+import re
+match = re.search(r"## Skill Prompt\s+```[^\n]*\n(.*?)```", content, re.DOTALL)
+skill_prompt = match.group(1).strip()
+
+# Call the API
+client = anthropic.Anthropic()
+response = client.messages.create(
+    model="claude-sonnet-4-6",
+    max_tokens=2048,
+    system=skill_prompt,
+    messages=[{
+        "role": "user",
+        "content": "Monthly income: $5,000\nRent: $1,500\nGroceries: $400\nCar: $300"
+    }]
+)
+print(response.content[0].text)
+```
+
+---
+
+### Chaining Skills Together
+
+Many workflows benefit from running multiple skills in sequence. For example:
+
+```
+Morning routine:
+1. /daily-financial-news-report   → paste today's headlines → get market briefing
+2. /stock-portfolio-analyzer      → paste your holdings    → see how news affects your positions
+3. /earnings-call-analyzer        → paste an earnings transcript → dig into a specific name
+```
+
+Each skill is self-contained — output from one can be pasted as input to the next.
+
+---
+
+### Tips
+
+- **Supply your own data.** Skills don't fetch live prices or news — you paste the data, Claude does the analysis. This keeps your data private and the output accurate.
+- **Adjust the prompts.** Every skill prompt is plain text. Edit the `## Skill Prompt` section to tailor the output format, add custom benchmarks, or change the tone.
+- **Check the `## Notes` section** of each skill for data requirements, known limitations, and links to complementary skills.
+
+---
+
 ## Skill Index
 
 ### Personal Finance
