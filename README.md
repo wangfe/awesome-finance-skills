@@ -2,7 +2,7 @@
 
 > A curated, open collection of Claude Code skills for finance — personal finance, investing, financial modeling, accounting, trading, and more.
 
-[![Skills](https://img.shields.io/badge/skills-13-blue)](#skill-index)
+[![Skills](https://img.shields.io/badge/skills-22-blue)](#skill-index)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 
@@ -200,6 +200,7 @@ Each skill is self-contained — output from one can be pasted as input to the n
 |---|---|---|
 | [Daily Financial News Report](skills/news-and-reporting/daily-digest/daily-financial-news-report.md) | Analyze a batch of financial news headlines and articles to produce a structured daily market briefing with key themes, market-moving events, and investment implications | `daily-briefing` `financial-news` `market-summary` |
 | [Fed Statement & FOMC Analyzer](skills/news-and-reporting/market-analysis/fed-statement-analyzer.md) | Analyze Federal Reserve statements, FOMC minutes, or Fed chair speeches to extract policy signals, rate path implications, and market impact | `fed` `fomc` `monetary-policy` |
+| [AlphaEar News](skills/news-and-reporting/daily-digest/alphaear-news/SKILL.md) | Fetch real-time hot finance news and unified trend reports from multiple sources (财联社, WallStreetCN, Weibo, Zhihu, etc.) and Polymarket prediction data | `real-time-news` `chinese-markets` `polymarket` `trends` |
 <!-- SKILLS:news-and-reporting:END -->
 
 <details>
@@ -245,6 +246,7 @@ Each skill is self-contained — output from one can be pasted as input to the n
 | Skill | Description | Tags |
 |---|---|---|
 | [DCF Model Builder](skills/financial-modeling/dcf-valuation/dcf-model-builder.md) | Build a discounted cash flow valuation from user-supplied financials and assumptions to estimate intrinsic value per share | `dcf` `valuation` `intrinsic-value` |
+| [AlphaEar Predictor](skills/financial-modeling/forecasting/alphaear-predictor/SKILL.md) | Time-series market forecasting using the Kronos model with news-aware sentiment adjustment for OHLC price prediction | `forecasting` `time-series` `kronos` `quantitative` |
 <!-- SKILLS:financial-modeling:END -->
 
 <details>
@@ -286,6 +288,7 @@ Each skill is self-contained — output from one can be pasted as input to the n
 | Skill | Description | Tags |
 |---|---|---|
 | [Position Sizing Calculator](skills/trading/risk-management/position-sizing-calculator.md) | Calculate optimal trade position size using risk-based methods (fixed dollar risk, Kelly Criterion, volatility-adjusted) | `position-sizing` `risk-management` `kelly-criterion` |
+| [AlphaEar Signal Tracker](skills/trading/quantitative/alphaear-signal-tracker/SKILL.md) | Track and update investment signal evolution — assess whether signals are Strengthened, Weakened, or Falsified based on new market data and news | `signal-tracking` `investment-signals` `quantitative` `ISQ` |
 <!-- SKILLS:trading:END -->
 
 <details>
@@ -306,6 +309,8 @@ Each skill is self-contained — output from one can be pasted as input to the n
 | Skill | Description | Tags |
 |---|---|---|
 | [Earnings Call Analyzer](skills/data-and-research/earnings-analysis/earnings-call-analyzer.md) | Analyze an earnings call transcript to extract key metrics, management tone, guidance changes, and hidden risks | `earnings` `earnings-call` `transcript-analysis` |
+| [AlphaEar Sentiment](skills/data-and-research/market-data/alphaear-sentiment/SKILL.md) | Analyze financial text sentiment using FinBERT or LLM, returning a scored label (positive/negative/neutral) from -1.0 to 1.0 | `sentiment-analysis` `finbert` `nlp` `chinese-markets` |
+| [AlphaEar Stock](skills/data-and-research/market-data/alphaear-stock/SKILL.md) | Search A-Share and HK stock tickers by name or code and retrieve OHLCV historical price data | `a-shares` `stock-data` `ohlcv` `chinese-markets` |
 <!-- SKILLS:data-and-research:END -->
 
 <details>
@@ -326,6 +331,10 @@ Each skill is self-contained — output from one can be pasted as input to the n
 | Skill | Description | Tags |
 |---|---|---|
 | [Compound Interest Calculator](skills/tools-and-utilities/calculators/compound-interest-calculator.md) | Calculate compound interest growth, final balance, and total interest earned for any investment or loan scenario | `compound-interest` `calculator` `savings` |
+| [AlphaEar Logic Visualizer](skills/tools-and-utilities/report-generators/alphaear-logic-visualizer/SKILL.md) | Generate Draw.io XML diagrams to visualize finance logic flows, investment theses, and signal transmission chains | `visualization` `drawio` `logic-flow` `diagrams` |
+| [AlphaEar Reporter](skills/tools-and-utilities/report-generators/alphaear-reporter/SKILL.md) | Plan, write, and assemble professional financial reports by clustering signals into themes, writing analysis sections, and compiling a final structured report | `report-generation` `financial-reports` `signal-clustering` |
+| [AlphaEar Search](skills/tools-and-utilities/api-integrations/alphaear-search/SKILL.md) | Perform finance web searches across multiple engines (Jina, DuckDuckGo, Baidu) and local RAG document retrieval with smart search caching | `web-search` `rag` `multi-engine` `search-cache` |
+| [Skill Creator](skills/tools-and-utilities/report-generators/alphaear-skill-creator/SKILL.md) | Design and package new Claude Code AgentSkills — covers structure, principles (concise, degrees of freedom), and the SKILL.md + resources anatomy | `skill-authoring` `meta` `agent-skills` |
 <!-- SKILLS:tools-and-utilities:END -->
 
 <details>
@@ -350,6 +359,18 @@ We welcome new skills from anyone! See [CONTRIBUTING.md](CONTRIBUTING.md) for th
 3. Submit a PR — the README index is auto-regenerated by the daily workflow
 
 All submissions must pass the [Quality Checklist](QUALITY_CHECKLIST.md).
+
+---
+
+## Acknowledgements
+
+Skills in this collection come from the open-source community. We gratefully credit:
+
+| Contributor | Source | Skills |
+|---|---|---|
+| [RKiding](https://github.com/RKiding) | [Awesome-finance-skills](https://github.com/RKiding/Awesome-finance-skills) | AlphaEar suite: alphaear-logic-visualizer, alphaear-news, alphaear-predictor, alphaear-reporter, alphaear-search, alphaear-sentiment, alphaear-signal-tracker, alphaear-stock, skill-creator |
+
+Want your skills credited here? [Open a PR](CONTRIBUTING.md) and include your source repo in the skill's YAML frontmatter.
 
 ---
 
