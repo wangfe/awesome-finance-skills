@@ -1,0 +1,45 @@
+name: Daily Finance Skill Update
+
+on:
+  schedule:
+    - cron: '0 9 * * *'   # 9:00 AM UTC every day
+  workflow_dispatch:        # allow manual trigger from GitHub UI
+
+jobs:
+  generate-skill:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write       # allow the bot to commit and push
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Generate new skill
+        id: gen
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python scripts/generate_skill.py
+
+      - name: Update README index
+        if: steps.gen.outputs.skill_topic != ''
+        run: python scripts/update_readme.py
+
+      - name: Commit and push
+        if: steps.gen.outputs.skill_topic != ''
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git diff --cached --quiet && echo "Nothing to commit." || \
+            git commit -m "feat: add skill – ${{ steps.gen.outputs.skill_topic }}"
+          git push
