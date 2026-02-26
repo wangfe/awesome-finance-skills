@@ -2,7 +2,7 @@
 
 > A curated, open collection of Claude Code skills for finance — personal finance, investing, financial modeling, accounting, trading, and more.
 
-[![Skills](https://img.shields.io/badge/skills-27-blue)](#skill-index)
+[![Skills](https://img.shields.io/badge/skills-28-blue)](#skill-index)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 
@@ -178,6 +178,7 @@ Each skill is self-contained — output from one can be pasted as input to the n
 | [50/30/20 Budget Builder](skills/personal-finance/budgeting/50-30-20-budget-builder.md) | Build a personalized monthly budget using the 50/30/20 rule given the user's income and expenses | `budgeting` `50-30-20` `monthly-budget` |
 | [Debt Avalanche vs Snowball Payoff Planner](skills/personal-finance/debt-management/debt-avalanche-vs-snowball-payoff-planner.md) | Compares the avalanche and snowball debt payoff strategies side-by-side, calculating total interest, payoff timelines, and monthly payment schedules for each method. | `debt` `avalanche` `snowball` |
 | [FIRE Number Calculator](skills/personal-finance/fire-planning/fire-number-calculator.md) | Calculate your Financial Independence / Retire Early (FIRE) number and years to FI based on savings rate, expenses, and expected returns | `fire` `financial-independence` `retire-early` |
+| [Emergency Fund Calculator](skills/personal-finance/savings-goals/emergency-fund-calculator.md) | Calculates the recommended emergency fund size based on personal financial circumstances and provides a savings roadmap to reach that goal. | `emergency-fund` `savings` `liquidity` |
 <!-- SKILLS:personal-finance:END -->
 
 <details>

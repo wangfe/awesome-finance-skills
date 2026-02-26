@@ -1,10 +1,4 @@
 pending:
-- topic: Emergency Fund Calculator
-  category: personal-finance/savings-goals
-  tags:
-  - emergency-fund
-  - savings
-  - liquidity
 - topic: Net Worth Tracker
   category: personal-finance/savings-goals
   tags:
@@ -430,3 +424,6 @@ completed:
 - topic: Debt Avalanche vs Snowball Payoff Planner
   file: skills/personal-finance/debt-management/debt-avalanche-vs-snowball-payoff-planner.md
   date: '2026-02-25'
+- topic: Emergency Fund Calculator
+  file: skills/personal-finance/savings-goals/emergency-fund-calculator.md
+  date: '2026-02-26'
