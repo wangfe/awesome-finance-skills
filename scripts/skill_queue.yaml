@@ -1,11 +1,4 @@
 pending:
-- topic: Net Worth Tracker
-  category: personal-finance/savings-goals
-  tags:
-  - net-worth
-  - assets
-  - liabilities
-  - tracking
 - topic: US Tax Bracket Estimator
   category: personal-finance/tax-personal
   tags:
@@ -427,3 +420,6 @@ completed:
 - topic: Emergency Fund Calculator
   file: skills/personal-finance/savings-goals/emergency-fund-calculator.md
   date: '2026-02-26'
+- topic: Net Worth Tracker
+  file: skills/personal-finance/savings-goals/net-worth-tracker.md
+  date: '2026-02-27'
