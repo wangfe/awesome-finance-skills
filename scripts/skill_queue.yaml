@@ -1,11 +1,4 @@
 pending:
-- topic: US Tax Bracket Estimator
-  category: personal-finance/tax-personal
-  tags:
-  - tax
-  - federal-tax
-  - brackets
-  - tax-planning
 - topic: Home Affordability Calculator
   category: personal-finance/savings-goals
   tags:
@@ -423,3 +416,6 @@ completed:
 - topic: Net Worth Tracker
   file: skills/personal-finance/savings-goals/net-worth-tracker.md
   date: '2026-02-27'
+- topic: US Tax Bracket Estimator
+  file: skills/personal-finance/tax-personal/us-tax-bracket-estimator.md
+  date: '2026-02-28'
