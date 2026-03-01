@@ -1,11 +1,4 @@
 pending:
-- topic: Home Affordability Calculator
-  category: personal-finance/savings-goals
-  tags:
-  - home-buying
-  - mortgage
-  - affordability
-  - real-estate
 - topic: Student Loan Payoff Optimizer
   category: personal-finance/debt-management
   tags:
@@ -419,3 +412,6 @@ completed:
 - topic: US Tax Bracket Estimator
   file: skills/personal-finance/tax-personal/us-tax-bracket-estimator.md
   date: '2026-02-28'
+- topic: Home Affordability Calculator
+  file: skills/personal-finance/savings-goals/home-affordability-calculator.md
+  date: '2026-03-01'

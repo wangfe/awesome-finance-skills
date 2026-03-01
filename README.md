@@ -2,7 +2,7 @@
 
 > A curated, open collection of Claude Code skills for finance — personal finance, investing, financial modeling, accounting, trading, and more.
 
-[![Skills](https://img.shields.io/badge/skills-30-blue)](#skill-index)
+[![Skills](https://img.shields.io/badge/skills-31-blue)](#skill-index)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 
@@ -179,6 +179,7 @@ Each skill is self-contained — output from one can be pasted as input to the n
 | [Debt Avalanche vs Snowball Payoff Planner](skills/personal-finance/debt-management/debt-avalanche-vs-snowball-payoff-planner.md) | Compares the avalanche and snowball debt payoff strategies side-by-side, calculating total interest, payoff timelines, and monthly payment schedules for each method. | `debt` `avalanche` `snowball` |
 | [FIRE Number Calculator](skills/personal-finance/fire-planning/fire-number-calculator.md) | Calculate your Financial Independence / Retire Early (FIRE) number and years to FI based on savings rate, expenses, and expected returns | `fire` `financial-independence` `retire-early` |
 | [Emergency Fund Calculator](skills/personal-finance/savings-goals/emergency-fund-calculator.md) | Calculates the recommended emergency fund size based on personal financial circumstances and provides a savings roadmap to reach that goal. | `emergency-fund` `savings` `liquidity` |
+| [Home Affordability Calculator](skills/personal-finance/savings-goals/home-affordability-calculator.md) | Estimates how much home a user can afford based on income, debts, savings, and local market conditions using standard mortgage qualification rules. | `home-buying` `mortgage` `affordability` |
 | [Net Worth Tracker](skills/personal-finance/savings-goals/net-worth-tracker.md) | Calculates and analyzes a user's current net worth by organizing assets and liabilities into a structured snapshot with trend insights and actionable recommendations. | `net-worth` `assets` `liabilities` |
 | [US Tax Bracket Estimator](skills/personal-finance/tax-personal/us-tax-bracket-estimator.md) | Estimates federal income tax liability and effective tax rate based on filing status, taxable income, and applicable deductions using current US tax brackets. | `tax` `federal-tax` `brackets` |
 <!-- SKILLS:personal-finance:END -->
