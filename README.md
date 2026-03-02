@@ -204,7 +204,7 @@ Each skill is self-contained — output from one can be pasted as input to the n
 | Skill | Description | Tags |
 |---|---|---|
 | [AlphaEar News](skills/news-and-reporting/daily-digest/alphaear-news/SKILL.md) | Fetch real-time hot finance news and unified trend reports from multiple sources (财联社, WallStreetCN, Weibo, Zhihu, etc.) and Polymarket prediction data | `real-time-news` `chinese-markets` `polymarket` |
-| [Daily Financial News Report](skills/news-and-reporting/daily-digest/daily-financial-news-report.md) | Analyze a batch of financial news headlines and articles to produce a structured daily market briefing with key themes, market-moving events, and investment implications | `daily-briefing` `financial-news` `market-summary` |
+| [Daily Financial News Report](skills/news-and-reporting/daily-digest/daily-financial-news-report.md) | Automatically fetch and analyze today's financial news to produce a structured daily market briefing with key themes, market-moving events, and investment implications — with optional category filtering (e.g. real estate, crypto, tech) | `daily-briefing` `financial-news` `market-summary` |
 | [Fed Statement & FOMC Analyzer](skills/news-and-reporting/market-analysis/fed-statement-analyzer.md) | Analyze Federal Reserve statements, FOMC minutes, or Fed chair speeches to extract policy signals, rate path implications, and market impact | `fed` `fomc` `monetary-policy` |
 <!-- SKILLS:news-and-reporting:END -->
 
