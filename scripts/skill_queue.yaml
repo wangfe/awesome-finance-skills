@@ -1,11 +1,4 @@
 pending:
-- topic: ETF Expense Ratio Comparator
-  category: investing/etf-funds
-  tags:
-  - etf
-  - expense-ratio
-  - index-funds
-  - cost-comparison
 - topic: Dividend Reinvestment (DRIP) Calculator
   category: investing/stock-analysis
   tags:
@@ -410,4 +403,7 @@ completed:
   date: '2026-03-01'
 - topic: Student Loan Payoff Optimizer
   file: skills/personal-finance/debt-management/student-loan-payoff-optimizer.md
+  date: '2026-03-02'
+- topic: ETF Expense Ratio Comparator
+  file: skills/investing/etf-funds/etf-expense-ratio-comparator.md
   date: '2026-03-02'

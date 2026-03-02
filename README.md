@@ -2,7 +2,7 @@
 
 > A curated, open collection of Claude Code skills for finance — personal finance, investing, financial modeling, accounting, trading, and more.
 
-[![Skills](https://img.shields.io/badge/skills-32-blue)](#skill-index)
+[![Skills](https://img.shields.io/badge/skills-33-blue)](#skill-index)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 
@@ -225,6 +225,7 @@ Each skill is self-contained — output from one can be pasted as input to the n
 <!-- SKILLS:investing:START -->
 | Skill | Description | Tags |
 |---|---|---|
+| [ETF Expense Ratio Comparator](skills/investing/etf-funds/etf-expense-ratio-comparator.md) | Compares expense ratios across multiple ETFs to quantify the long-term cost impact on portfolio returns. | `etf` `expense-ratio` `index-funds` |
 | [Portfolio Performance Report Generator](skills/investing/portfolio-analysis/portfolio-performance-report.md) | Generate a detailed periodic portfolio performance report with returns, benchmark comparison, attribution, risk metrics, and commentary | `portfolio-report` `performance` `benchmark` |
 | [Stock Portfolio Analyzer](skills/investing/portfolio-analysis/stock-portfolio-analyzer.md) | Analyze a stock portfolio's performance, allocation, risk concentration, sector exposure, and key metrics — and generate a comprehensive portfolio health report | `portfolio-analysis` `stock-portfolio` `performance` |
 | [Buffett-Style Stock Checklist](skills/investing/stock-analysis/buffett-checklist.md) | Evaluate a stock using Warren Buffett's fundamental investing criteria and produce a pass/fail scorecard | `fundamental-analysis` `value-investing` `buffett` |
