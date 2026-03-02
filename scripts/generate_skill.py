@@ -13,6 +13,9 @@ import yaml
 from pathlib import Path
 from datetime import date
 
+from dotenv import load_dotenv
+load_dotenv(Path(__file__).parent.parent / ".env.local")
+
 import anthropic
 
 REPO_ROOT = Path(__file__).parent.parent
