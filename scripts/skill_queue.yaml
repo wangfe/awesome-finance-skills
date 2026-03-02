@@ -1,11 +1,4 @@
 pending:
-- topic: Student Loan Payoff Optimizer
-  category: personal-finance/debt-management
-  tags:
-  - student-loans
-  - payoff
-  - refinancing
-  - income-based-repayment
 - topic: ETF Expense Ratio Comparator
   category: investing/etf-funds
   tags:
@@ -415,3 +408,6 @@ completed:
 - topic: Home Affordability Calculator
   file: skills/personal-finance/savings-goals/home-affordability-calculator.md
   date: '2026-03-01'
+- topic: Student Loan Payoff Optimizer
+  file: skills/personal-finance/debt-management/student-loan-payoff-optimizer.md
+  date: '2026-03-02'
