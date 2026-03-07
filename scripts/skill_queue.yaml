@@ -1,11 +1,4 @@
 pending:
-- topic: Black-Scholes Options Pricing Model
-  category: investing/options-derivatives
-  tags:
-  - options
-  - black-scholes
-  - pricing
-  - greeks
 - topic: Rental Property Cash Flow Analyzer
   category: investing/real-estate
   tags:
@@ -403,3 +396,6 @@ completed:
 - topic: Dividend Reinvestment (DRIP) Calculator
   file: skills/investing/stock-analysis/dividend-reinvestment-drip-calculator.md
   date: '2026-03-06'
+- topic: Black-Scholes Options Pricing Model
+  file: skills/investing/options-derivatives/black-scholes-options-pricing-model.md
+  date: '2026-03-07'
