@@ -2,7 +2,7 @@
 
 > A curated, open collection of Claude Code skills for finance — personal finance, investing, financial modeling, accounting, trading, and more.
 
-[![Skills](https://img.shields.io/badge/skills-35-blue)](#skill-index)
+[![Skills](https://img.shields.io/badge/skills-36-blue)](#skill-index)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 
@@ -229,6 +229,7 @@ Each skill is self-contained — output from one can be pasted as input to the n
 | [Black-Scholes Options Pricing Model](skills/investing/options-derivatives/black-scholes-options-pricing-model.md) | Calculates theoretical option prices and Greeks using the Black-Scholes model for European-style call and put options. | `options` `black-scholes` `pricing` |
 | [Portfolio Performance Report Generator](skills/investing/portfolio-analysis/portfolio-performance-report.md) | Generate a detailed periodic portfolio performance report with returns, benchmark comparison, attribution, risk metrics, and commentary | `portfolio-report` `performance` `benchmark` |
 | [Stock Portfolio Analyzer](skills/investing/portfolio-analysis/stock-portfolio-analyzer.md) | Analyze a stock portfolio's performance, allocation, risk concentration, sector exposure, and key metrics — and generate a comprehensive portfolio health report | `portfolio-analysis` `stock-portfolio` `performance` |
+| [Rental Property Cash Flow Analyzer](skills/investing/real-estate/rental-property-cash-flow-analyzer.md) | Analyzes rental property investments by calculating cash flow, cap rate, cash-on-cash return, and key metrics to evaluate profitability. | `rental-property` `cash-flow` `cap-rate` |
 | [Buffett-Style Stock Checklist](skills/investing/stock-analysis/buffett-checklist.md) | Evaluate a stock using Warren Buffett's fundamental investing criteria and produce a pass/fail scorecard | `fundamental-analysis` `value-investing` `buffett` |
 | [Dividend Reinvestment (DRIP) Calculator](skills/investing/stock-analysis/dividend-reinvestment-drip-calculator.md) | Projects the long-term wealth-building impact of reinvesting dividends automatically, showing compound growth over time across customizable scenarios. | `dividends` `drip` `reinvestment` |
 <!-- SKILLS:investing:END -->

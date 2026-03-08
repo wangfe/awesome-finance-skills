@@ -1,11 +1,4 @@
 pending:
-- topic: Rental Property Cash Flow Analyzer
-  category: investing/real-estate
-  tags:
-  - rental-property
-  - cash-flow
-  - cap-rate
-  - real-estate-investing
 - topic: Portfolio Rebalancing Advisor
   category: investing/portfolio-management
   tags:
@@ -399,3 +392,6 @@ completed:
 - topic: Black-Scholes Options Pricing Model
   file: skills/investing/options-derivatives/black-scholes-options-pricing-model.md
   date: '2026-03-07'
+- topic: Rental Property Cash Flow Analyzer
+  file: skills/investing/real-estate/rental-property-cash-flow-analyzer.md
+  date: '2026-03-08'
