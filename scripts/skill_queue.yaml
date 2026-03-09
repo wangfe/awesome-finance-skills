@@ -1,11 +1,4 @@
 pending:
-- topic: Portfolio Rebalancing Advisor
-  category: investing/portfolio-management
-  tags:
-  - rebalancing
-  - asset-allocation
-  - portfolio
-  - drift
 - topic: Margin of Safety Calculator
   category: investing/stock-analysis
   tags:
@@ -395,3 +388,6 @@ completed:
 - topic: Rental Property Cash Flow Analyzer
   file: skills/investing/real-estate/rental-property-cash-flow-analyzer.md
   date: '2026-03-08'
+- topic: Portfolio Rebalancing Advisor
+  file: skills/investing/portfolio-management/portfolio-rebalancing-advisor.md
+  date: '2026-03-09'
