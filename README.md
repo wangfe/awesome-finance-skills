@@ -2,7 +2,7 @@
 
 > A curated, open collection of Claude Code skills for finance — personal finance, investing, financial modeling, accounting, trading, and more.
 
-[![Skills](https://img.shields.io/badge/skills-37-blue)](#skill-index)
+[![Skills](https://img.shields.io/badge/skills-38-blue)](#skill-index)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 
@@ -233,6 +233,7 @@ Each skill is self-contained — output from one can be pasted as input to the n
 | [Rental Property Cash Flow Analyzer](skills/investing/real-estate/rental-property-cash-flow-analyzer.md) | Analyzes rental property investments by calculating cash flow, cap rate, cash-on-cash return, and key metrics to evaluate profitability. | `rental-property` `cash-flow` `cap-rate` |
 | [Buffett-Style Stock Checklist](skills/investing/stock-analysis/buffett-checklist.md) | Evaluate a stock using Warren Buffett's fundamental investing criteria and produce a pass/fail scorecard | `fundamental-analysis` `value-investing` `buffett` |
 | [Dividend Reinvestment (DRIP) Calculator](skills/investing/stock-analysis/dividend-reinvestment-drip-calculator.md) | Projects the long-term wealth-building impact of reinvesting dividends automatically, showing compound growth over time across customizable scenarios. | `dividends` `drip` `reinvestment` |
+| [Margin of Safety Calculator](skills/investing/stock-analysis/margin-of-safety-calculator.md) | Calculates the margin of safety for a stock by comparing its current market price to an estimated intrinsic value using multiple valuation methods. | `margin-of-safety` `value-investing` `intrinsic-value` |
 <!-- SKILLS:investing:END -->
 
 <details>

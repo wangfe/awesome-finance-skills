@@ -1,11 +1,4 @@
 pending:
-- topic: Margin of Safety Calculator
-  category: investing/stock-analysis
-  tags:
-  - margin-of-safety
-  - value-investing
-  - intrinsic-value
-  - graham
 - topic: Dividend Stock Screener
   category: investing/stock-analysis
   tags:
@@ -391,3 +384,6 @@ completed:
 - topic: Portfolio Rebalancing Advisor
   file: skills/investing/portfolio-management/portfolio-rebalancing-advisor.md
   date: '2026-03-09'
+- topic: Margin of Safety Calculator
+  file: skills/investing/stock-analysis/margin-of-safety-calculator.md
+  date: '2026-03-10'
