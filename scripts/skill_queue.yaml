@@ -1,11 +1,4 @@
 pending:
-- topic: Dividend Stock Screener
-  category: investing/stock-analysis
-  tags:
-  - dividends
-  - dividend-yield
-  - payout-ratio
-  - screening
 - topic: LBO Model Builder
   category: financial-modeling/lbo-analysis
   tags:
@@ -387,3 +380,6 @@ completed:
 - topic: Margin of Safety Calculator
   file: skills/investing/stock-analysis/margin-of-safety-calculator.md
   date: '2026-03-10'
+- topic: Dividend Stock Screener
+  file: skills/investing/stock-analysis/dividend-stock-screener.md
+  date: '2026-03-11'
