@@ -1,11 +1,4 @@
 pending:
-- topic: LBO Model Builder
-  category: financial-modeling/lbo-analysis
-  tags:
-  - lbo
-  - leveraged-buyout
-  - private-equity
-  - returns
 - topic: Comparable Company Analysis (Comps)
   category: financial-modeling/comparable-analysis
   tags:
@@ -383,3 +376,6 @@ completed:
 - topic: Dividend Stock Screener
   file: skills/investing/stock-analysis/dividend-stock-screener.md
   date: '2026-03-11'
+- topic: LBO Model Builder
+  file: skills/financial-modeling/lbo-analysis/lbo-model-builder.md
+  date: '2026-03-12'
