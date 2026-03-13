@@ -2,7 +2,7 @@
 
 > A curated, open collection of Claude Code skills for finance — personal finance, investing, financial modeling, accounting, trading, and more.
 
-[![Skills](https://img.shields.io/badge/skills-40-blue)](#skill-index)
+[![Skills](https://img.shields.io/badge/skills-41-blue)](#skill-index)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 
@@ -282,6 +282,7 @@ Each skill is self-contained — output from one can be pasted as input to the n
 <!-- SKILLS:financial-modeling:START -->
 | Skill | Description | Tags |
 |---|---|---|
+| [Comparable Company Analysis (Comps)](skills/financial-modeling/comparable-analysis/comparable-company-analysis-comps.md) | Performs a structured comparable company analysis by benchmarking a target company against a peer group using key trading multiples to derive an implied valuation range. | `comps` `ev-ebitda` `multiples` |
 | [DCF Model Builder](skills/financial-modeling/dcf-valuation/dcf-model-builder.md) | Build a discounted cash flow valuation from user-supplied financials and assumptions to estimate intrinsic value per share | `dcf` `valuation` `intrinsic-value` |
 | [AlphaEar Predictor](skills/financial-modeling/forecasting/alphaear-predictor/SKILL.md) | Time-series market forecasting using the Kronos model with news-aware sentiment adjustment for OHLC price prediction | `forecasting` `time-series` `kronos` |
 | [LBO Model Builder](skills/financial-modeling/lbo-analysis/lbo-model-builder.md) | Builds a structured leveraged buyout (LBO) model including entry assumptions, debt schedule, returns analysis, and exit scenarios. | `lbo` `leveraged-buyout` `private-equity` |

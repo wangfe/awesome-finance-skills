@@ -1,11 +1,4 @@
 pending:
-- topic: Comparable Company Analysis (Comps)
-  category: financial-modeling/comparable-analysis
-  tags:
-  - comps
-  - ev-ebitda
-  - multiples
-  - valuation
 - topic: Revenue Forecast Builder
   category: financial-modeling/forecasting
   tags:
@@ -379,3 +372,6 @@ completed:
 - topic: LBO Model Builder
   file: skills/financial-modeling/lbo-analysis/lbo-model-builder.md
   date: '2026-03-12'
+- topic: Comparable Company Analysis (Comps)
+  file: skills/financial-modeling/comparable-analysis/comparable-company-analysis-comps.md
+  date: '2026-03-13'
