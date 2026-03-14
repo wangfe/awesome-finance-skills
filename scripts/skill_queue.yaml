@@ -1,11 +1,4 @@
 pending:
-- topic: Revenue Forecast Builder
-  category: financial-modeling/forecasting
-  tags:
-  - revenue-forecast
-  - top-down
-  - bottom-up
-  - growth-modeling
 - topic: Scenario Analysis Builder (Bull Base Bear)
   category: financial-modeling/scenario-modeling
   tags:
@@ -375,3 +368,6 @@ completed:
 - topic: Comparable Company Analysis (Comps)
   file: skills/financial-modeling/comparable-analysis/comparable-company-analysis-comps.md
   date: '2026-03-13'
+- topic: Revenue Forecast Builder
+  file: skills/financial-modeling/forecasting/revenue-forecast-builder.md
+  date: '2026-03-14'
