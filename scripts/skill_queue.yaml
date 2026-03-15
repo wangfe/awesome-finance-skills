@@ -1,11 +1,4 @@
 pending:
-- topic: Scenario Analysis Builder (Bull Base Bear)
-  category: financial-modeling/scenario-modeling
-  tags:
-  - scenario-analysis
-  - bull-case
-  - bear-case
-  - sensitivity
 - topic: Working Capital Model
   category: financial-modeling/forecasting
   tags:
@@ -371,3 +364,6 @@ completed:
 - topic: Revenue Forecast Builder
   file: skills/financial-modeling/forecasting/revenue-forecast-builder.md
   date: '2026-03-14'
+- topic: Scenario Analysis Builder (Bull Base Bear)
+  file: skills/financial-modeling/scenario-modeling/scenario-analysis-builder-bull-base-bear.md
+  date: '2026-03-15'

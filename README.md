@@ -2,7 +2,7 @@
 
 > A curated, open collection of Claude Code skills for finance — personal finance, investing, financial modeling, accounting, trading, and more.
 
-[![Skills](https://img.shields.io/badge/skills-42-blue)](#skill-index)
+[![Skills](https://img.shields.io/badge/skills-43-blue)](#skill-index)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 
@@ -287,6 +287,7 @@ Each skill is self-contained — output from one can be pasted as input to the n
 | [AlphaEar Predictor](skills/financial-modeling/forecasting/alphaear-predictor/SKILL.md) | Time-series market forecasting using the Kronos model with news-aware sentiment adjustment for OHLC price prediction | `forecasting` `time-series` `kronos` |
 | [Revenue Forecast Builder](skills/financial-modeling/forecasting/revenue-forecast-builder.md) | Builds a structured multi-method revenue forecast using both top-down and bottom-up approaches, with growth drivers, scenario analysis, and a reconciled projection table. | `revenue-forecast` `top-down` `bottom-up` |
 | [LBO Model Builder](skills/financial-modeling/lbo-analysis/lbo-model-builder.md) | Builds a structured leveraged buyout (LBO) model including entry assumptions, debt schedule, returns analysis, and exit scenarios. | `lbo` `leveraged-buyout` `private-equity` |
+| [Scenario Analysis Builder (Bull / Base / Bear)](skills/financial-modeling/scenario-modeling/scenario-analysis-builder-bull-base-bear.md) | Constructs a structured three-scenario financial analysis with bull, base, and bear cases, including key driver assumptions, output metrics, and probability-weighted expected values. | `scenario-analysis` `bull-case` `bear-case` |
 <!-- SKILLS:financial-modeling:END -->
 
 <details>
