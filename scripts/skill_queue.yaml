@@ -1,12 +1,4 @@
 pending:
-- topic: Working Capital Model
-  category: financial-modeling/forecasting
-  tags:
-  - working-capital
-  - dso
-  - dpo
-  - dsi
-  - cash-conversion-cycle
 - topic: Three-Statement Financial Model Connector
   category: financial-modeling/scenario-modeling
   tags:
@@ -367,3 +359,6 @@ completed:
 - topic: Scenario Analysis Builder (Bull Base Bear)
   file: skills/financial-modeling/scenario-modeling/scenario-analysis-builder-bull-base-bear.md
   date: '2026-03-15'
+- topic: Working Capital Model
+  file: skills/financial-modeling/forecasting/working-capital-model.md
+  date: '2026-03-16'
