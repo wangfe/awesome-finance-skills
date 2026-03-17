@@ -1,11 +1,4 @@
 pending:
-- topic: Three-Statement Financial Model Connector
-  category: financial-modeling/scenario-modeling
-  tags:
-  - three-statement
-  - income-statement
-  - balance-sheet
-  - cash-flow
 - topic: Cash Flow Statement Builder
   category: accounting/financial-statements
   tags:
@@ -362,3 +355,6 @@ completed:
 - topic: Working Capital Model
   file: skills/financial-modeling/forecasting/working-capital-model.md
   date: '2026-03-16'
+- topic: Three-Statement Financial Model Connector
+  file: skills/financial-modeling/scenario-modeling/three-statement-financial-model-connector.md
+  date: '2026-03-17'

@@ -2,7 +2,7 @@
 
 > A curated, open collection of Claude Code skills for finance — personal finance, investing, financial modeling, accounting, trading, and more.
 
-[![Skills](https://img.shields.io/badge/skills-44-blue)](#skill-index)
+[![Skills](https://img.shields.io/badge/skills-45-blue)](#skill-index)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 
@@ -289,6 +289,7 @@ Each skill is self-contained — output from one can be pasted as input to the n
 | [Working Capital Model](skills/financial-modeling/forecasting/working-capital-model.md) | Builds a detailed working capital forecast model tracking DSO, DPO, DSI, and the cash conversion cycle to project operating cash needs. | `working-capital` `dso` `dpo` |
 | [LBO Model Builder](skills/financial-modeling/lbo-analysis/lbo-model-builder.md) | Builds a structured leveraged buyout (LBO) model including entry assumptions, debt schedule, returns analysis, and exit scenarios. | `lbo` `leveraged-buyout` `private-equity` |
 | [Scenario Analysis Builder (Bull / Base / Bear)](skills/financial-modeling/scenario-modeling/scenario-analysis-builder-bull-base-bear.md) | Constructs a structured three-scenario financial analysis with bull, base, and bear cases, including key driver assumptions, output metrics, and probability-weighted expected values. | `scenario-analysis` `bull-case` `bear-case` |
+| [Three-Statement Financial Model Connector](skills/financial-modeling/scenario-modeling/three-statement-financial-model-connector.md) | Builds and validates the mechanical linkages between the income statement, balance sheet, and cash flow statement to ensure a fully integrated financial model. | `three-statement` `income-statement` `balance-sheet` |
 <!-- SKILLS:financial-modeling:END -->
 
 <details>
