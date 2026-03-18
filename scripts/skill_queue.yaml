@@ -1,11 +1,4 @@
 pending:
-- topic: Cash Flow Statement Builder
-  category: accounting/financial-statements
-  tags:
-  - cash-flow-statement
-  - operating
-  - investing
-  - financing
 - topic: Business Tax Deduction Finder
   category: accounting/tax-business
   tags:
@@ -358,3 +351,6 @@ completed:
 - topic: Three-Statement Financial Model Connector
   file: skills/financial-modeling/scenario-modeling/three-statement-financial-model-connector.md
   date: '2026-03-17'
+- topic: Cash Flow Statement Builder
+  file: skills/accounting/financial-statements/cash-flow-statement-builder.md
+  date: '2026-03-18'
