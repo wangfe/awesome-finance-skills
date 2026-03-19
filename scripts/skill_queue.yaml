@@ -1,11 +1,4 @@
 pending:
-- topic: Business Tax Deduction Finder
-  category: accounting/tax-business
-  tags:
-  - business-tax
-  - deductions
-  - expenses
-  - tax-planning
 - topic: Accounts Receivable Aging Report Analyzer
   category: accounting/bookkeeping
   tags:
@@ -354,3 +347,6 @@ completed:
 - topic: Cash Flow Statement Builder
   file: skills/accounting/financial-statements/cash-flow-statement-builder.md
   date: '2026-03-18'
+- topic: Business Tax Deduction Finder
+  file: skills/accounting/tax-business/business-tax-deduction-finder.md
+  date: '2026-03-19'
