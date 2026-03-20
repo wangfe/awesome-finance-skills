@@ -1,11 +1,4 @@
 pending:
-- topic: Accounts Receivable Aging Report Analyzer
-  category: accounting/bookkeeping
-  tags:
-  - accounts-receivable
-  - aging-report
-  - collections
-  - cash-flow
 - topic: Profit and Loss Statement Summarizer
   category: accounting/financial-statements
   tags:
@@ -350,3 +343,6 @@ completed:
 - topic: Business Tax Deduction Finder
   file: skills/accounting/tax-business/business-tax-deduction-finder.md
   date: '2026-03-19'
+- topic: Accounts Receivable Aging Report Analyzer
+  file: skills/accounting/bookkeeping/accounts-receivable-aging-report-analyzer.md
+  date: '2026-03-20'
