@@ -1,11 +1,4 @@
 pending:
-- topic: Profit and Loss Statement Summarizer
-  category: accounting/financial-statements
-  tags:
-  - profit-loss
-  - income-statement
-  - revenue
-  - expenses
 - topic: Break-Even Analysis Calculator
   category: accounting/ratio-analysis
   tags:
@@ -346,3 +339,6 @@ completed:
 - topic: Accounts Receivable Aging Report Analyzer
   file: skills/accounting/bookkeeping/accounts-receivable-aging-report-analyzer.md
   date: '2026-03-20'
+- topic: Profit and Loss Statement Summarizer
+  file: skills/accounting/financial-statements/profit-and-loss-statement-summarizer.md
+  date: '2026-03-21'
