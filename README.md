@@ -2,7 +2,7 @@
 
 > A curated, open collection of Claude Code skills for finance — personal finance, investing, financial modeling, accounting, trading, and more.
 
-[![Skills](https://img.shields.io/badge/skills-49-blue)](#skill-index)
+[![Skills](https://img.shields.io/badge/skills-50-blue)](#skill-index)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 
@@ -313,6 +313,7 @@ Each skill is self-contained — output from one can be pasted as input to the n
 | [Accounts Receivable Aging Report Analyzer](skills/accounting/bookkeeping/accounts-receivable-aging-report-analyzer.md) | Analyzes accounts receivable aging reports to identify collection risks, cash flow gaps, and actionable follow-up priorities. | `accounts-receivable` `aging-report` `collections` |
 | [Cash Flow Statement Builder](skills/accounting/financial-statements/cash-flow-statement-builder.md) | Builds a structured cash flow statement organized into operating, investing, and financing activities from raw transaction data or financial inputs. | `cash-flow-statement` `operating` `investing` |
 | [Profit and Loss Statement Summarizer](skills/accounting/financial-statements/profit-and-loss-statement-summarizer.md) | Analyzes and summarizes a profit and loss (income) statement into clear, structured insights covering revenue, expenses, and profitability metrics. | `profit-loss` `income-statement` `revenue` |
+| [Break-Even Analysis Calculator](skills/accounting/ratio-analysis/break-even-analysis-calculator.md) | Calculates break-even point in units and revenue, contribution margin, and margin of safety for a product or business. | `break-even` `fixed-costs` `variable-costs` |
 | [Financial Ratio Analyzer](skills/accounting/ratio-analysis/financial-ratio-analyzer.md) | Calculate and interpret the full suite of financial ratios from a company's income statement, balance sheet, and cash flow statement | `financial-ratios` `fundamental-analysis` `accounting` |
 | [Business Tax Deduction Finder](skills/accounting/tax-business/business-tax-deduction-finder.md) | Analyzes business expenses and operations to identify eligible tax deductions and optimization opportunities for small to mid-sized businesses. | `business-tax` `deductions` `expenses` |
 <!-- SKILLS:accounting:END -->
