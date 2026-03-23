@@ -1,12 +1,4 @@
 pending:
-- topic: RSI and MACD Signal Interpreter
-  category: trading/technical-analysis
-  tags:
-  - rsi
-  - macd
-  - technical-analysis
-  - momentum
-  - signals
 - topic: Options Greeks Calculator
   category: trading/quantitative
   tags:
@@ -338,3 +330,6 @@ completed:
 - topic: Break-Even Analysis Calculator
   file: skills/accounting/ratio-analysis/break-even-analysis-calculator.md
   date: '2026-03-22'
+- topic: RSI and MACD Signal Interpreter
+  file: skills/trading/technical-analysis/rsi-and-macd-signal-interpreter.md
+  date: '2026-03-23'

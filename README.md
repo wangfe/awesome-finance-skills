@@ -2,7 +2,7 @@
 
 > A curated, open collection of Claude Code skills for finance — personal finance, investing, financial modeling, accounting, trading, and more.
 
-[![Skills](https://img.shields.io/badge/skills-50-blue)](#skill-index)
+[![Skills](https://img.shields.io/badge/skills-51-blue)](#skill-index)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 
@@ -337,6 +337,7 @@ Each skill is self-contained — output from one can be pasted as input to the n
 |---|---|---|
 | [AlphaEar Signal Tracker](skills/trading/quantitative/alphaear-signal-tracker/SKILL.md) | Track and update investment signal evolution — assess whether signals are Strengthened, Weakened, or Falsified based on new market data and news | `signal-tracking` `investment-signals` `quantitative` |
 | [Position Sizing Calculator](skills/trading/risk-management/position-sizing-calculator.md) | Calculate optimal trade position size using risk-based methods (fixed dollar risk, Kelly Criterion, volatility-adjusted) | `position-sizing` `risk-management` `kelly-criterion` |
+| [RSI and MACD Signal Interpreter](skills/trading/technical-analysis/rsi-and-macd-signal-interpreter.md) | Interprets RSI and MACD technical indicator values to generate momentum-based trading signals with actionable context. | `rsi` `macd` `technical-analysis` |
 <!-- SKILLS:trading:END -->
 
 <details>
