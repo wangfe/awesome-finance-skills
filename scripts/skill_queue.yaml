@@ -1,13 +1,4 @@
 pending:
-- topic: Options Greeks Calculator
-  category: trading/quantitative
-  tags:
-  - greeks
-  - delta
-  - gamma
-  - theta
-  - vega
-  - options
 - topic: Sharpe Ratio and Risk-Adjusted Return Calculator
   category: trading/risk-management
   tags:
@@ -333,3 +324,6 @@ completed:
 - topic: RSI and MACD Signal Interpreter
   file: skills/trading/technical-analysis/rsi-and-macd-signal-interpreter.md
   date: '2026-03-23'
+- topic: Options Greeks Calculator
+  file: skills/trading/quantitative/options-greeks-calculator.md
+  date: '2026-03-24'
