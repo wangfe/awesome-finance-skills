@@ -1,11 +1,4 @@
 pending:
-- topic: Sharpe Ratio and Risk-Adjusted Return Calculator
-  category: trading/risk-management
-  tags:
-  - sharpe-ratio
-  - risk-adjusted-return
-  - volatility
-  - portfolio
 - topic: Maximum Drawdown Analyzer
   category: trading/risk-management
   tags:
@@ -327,3 +320,6 @@ completed:
 - topic: Options Greeks Calculator
   file: skills/trading/quantitative/options-greeks-calculator.md
   date: '2026-03-24'
+- topic: Sharpe Ratio and Risk-Adjusted Return Calculator
+  file: skills/trading/risk-management/sharpe-ratio-and-risk-adjusted-return-calculator.md
+  date: '2026-03-25'
