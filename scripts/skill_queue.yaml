@@ -1,11 +1,4 @@
 pending:
-- topic: Maximum Drawdown Analyzer
-  category: trading/risk-management
-  tags:
-  - drawdown
-  - max-drawdown
-  - risk
-  - peak-trough
 - topic: ATR Volatility Analyzer
   category: trading/technical-analysis
   tags:
@@ -323,3 +316,6 @@ completed:
 - topic: Sharpe Ratio and Risk-Adjusted Return Calculator
   file: skills/trading/risk-management/sharpe-ratio-and-risk-adjusted-return-calculator.md
   date: '2026-03-25'
+- topic: Maximum Drawdown Analyzer
+  file: skills/trading/risk-management/maximum-drawdown-analyzer.md
+  date: '2026-03-26'
