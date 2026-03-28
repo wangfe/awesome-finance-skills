@@ -1,11 +1,4 @@
 pending:
-- topic: ATR Volatility Analyzer
-  category: trading/technical-analysis
-  tags:
-  - atr
-  - volatility
-  - average-true-range
-  - technical-analysis
 - topic: Backtesting Performance Report
   category: trading/backtesting
   tags:
@@ -319,3 +312,6 @@ completed:
 - topic: Maximum Drawdown Analyzer
   file: skills/trading/risk-management/maximum-drawdown-analyzer.md
   date: '2026-03-26'
+- topic: ATR Volatility Analyzer
+  file: skills/trading/technical-analysis/atr-volatility-analyzer.md
+  date: '2026-03-28'

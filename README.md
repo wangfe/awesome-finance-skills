@@ -2,7 +2,7 @@
 
 > A curated, open collection of Claude Code skills for finance — personal finance, investing, financial modeling, accounting, trading, and more.
 
-[![Skills](https://img.shields.io/badge/skills-54-blue)](#skill-index)
+[![Skills](https://img.shields.io/badge/skills-55-blue)](#skill-index)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 
@@ -340,6 +340,7 @@ Each skill is self-contained — output from one can be pasted as input to the n
 | [Maximum Drawdown Analyzer](skills/trading/risk-management/maximum-drawdown-analyzer.md) | Analyzes peak-to-trough drawdowns in a portfolio or asset's return series to quantify downside risk and recovery characteristics. | `drawdown` `max-drawdown` `risk` |
 | [Position Sizing Calculator](skills/trading/risk-management/position-sizing-calculator.md) | Calculate optimal trade position size using risk-based methods (fixed dollar risk, Kelly Criterion, volatility-adjusted) | `position-sizing` `risk-management` `kelly-criterion` |
 | [Sharpe Ratio and Risk-Adjusted Return Calculator](skills/trading/risk-management/sharpe-ratio-and-risk-adjusted-return-calculator.md) | Calculates Sharpe Ratio and key risk-adjusted return metrics for a portfolio or asset using return data and a risk-free rate. | `sharpe-ratio` `risk-adjusted-return` `volatility` |
+| [ATR Volatility Analyzer](skills/trading/technical-analysis/atr-volatility-analyzer.md) | Calculates and interprets Average True Range (ATR) to assess market volatility, set dynamic stop-losses, and size positions appropriately. | `atr` `volatility` `average-true-range` |
 | [RSI and MACD Signal Interpreter](skills/trading/technical-analysis/rsi-and-macd-signal-interpreter.md) | Interprets RSI and MACD technical indicator values to generate momentum-based trading signals with actionable context. | `rsi` `macd` `technical-analysis` |
 <!-- SKILLS:trading:END -->
 
