@@ -2,7 +2,7 @@
 
 > A curated, open collection of Claude Code skills for finance — personal finance, investing, financial modeling, accounting, trading, and more.
 
-[![Skills](https://img.shields.io/badge/skills-55-blue)](#skill-index)
+[![Skills](https://img.shields.io/badge/skills-56-blue)](#skill-index)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 
@@ -335,6 +335,7 @@ Each skill is self-contained — output from one can be pasted as input to the n
 <!-- SKILLS:trading:START -->
 | Skill | Description | Tags |
 |---|---|---|
+| [Backtesting Performance Report](skills/trading/backtesting/backtesting-performance-report.md) | Analyzes a set of historical trade results to produce a comprehensive backtesting performance report with key metrics, risk statistics, and strategy evaluation. | `backtesting` `win-rate` `expectancy` |
 | [AlphaEar Signal Tracker](skills/trading/quantitative/alphaear-signal-tracker/SKILL.md) | Track and update investment signal evolution — assess whether signals are Strengthened, Weakened, or Falsified based on new market data and news | `signal-tracking` `investment-signals` `quantitative` |
 | [Options Greeks Calculator](skills/trading/quantitative/options-greeks-calculator.md) | Calculates all five primary options Greeks (Delta, Gamma, Theta, Vega, Rho) using the Black-Scholes model for both calls and puts. | `greeks` `delta` `gamma` |
 | [Maximum Drawdown Analyzer](skills/trading/risk-management/maximum-drawdown-analyzer.md) | Analyzes peak-to-trough drawdowns in a portfolio or asset's return series to quantify downside risk and recovery characteristics. | `drawdown` `max-drawdown` `risk` |
