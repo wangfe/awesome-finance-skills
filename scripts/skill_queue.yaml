@@ -1,12 +1,4 @@
 pending:
-- topic: Macro Economic Indicator Dashboard
-  category: data-and-research/economic-indicators
-  tags:
-  - cpi
-  - gdp
-  - pmi
-  - macro
-  - economic-indicators
 - topic: IPO Prospectus Analyzer
   category: data-and-research/sec-filings
   tags:
@@ -307,3 +299,6 @@ completed:
 - topic: SEC 10-K Risk Factor Extractor
   file: skills/data-and-research/sec-filings/sec-10-k-risk-factor-extractor.md
   date: '2026-03-30'
+- topic: Macro Economic Indicator Dashboard
+  file: skills/data-and-research/economic-indicators/macro-economic-indicator-dashboard.md
+  date: '2026-03-31'
