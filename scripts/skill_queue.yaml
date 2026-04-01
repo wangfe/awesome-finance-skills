@@ -1,12 +1,4 @@
 pending:
-- topic: IPO Prospectus Analyzer
-  category: data-and-research/sec-filings
-  tags:
-  - ipo
-  - s-1
-  - prospectus
-  - risk-factors
-  - valuation
 - topic: Analyst Estimate Tracker and Surprise Calculator
   category: data-and-research/earnings-analysis
   tags:
@@ -302,3 +294,6 @@ completed:
 - topic: Macro Economic Indicator Dashboard
   file: skills/data-and-research/economic-indicators/macro-economic-indicator-dashboard.md
   date: '2026-03-31'
+- topic: IPO Prospectus Analyzer
+  file: skills/data-and-research/sec-filings/ipo-prospectus-analyzer.md
+  date: '2026-04-01'

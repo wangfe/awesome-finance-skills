@@ -2,7 +2,7 @@
 
 > A curated, open collection of Claude Code skills for finance — personal finance, investing, financial modeling, accounting, trading, and more.
 
-[![Skills](https://img.shields.io/badge/skills-58-blue)](#skill-index)
+[![Skills](https://img.shields.io/badge/skills-59-blue)](#skill-index)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 
@@ -366,6 +366,7 @@ Each skill is self-contained — output from one can be pasted as input to the n
 | [Macro Economic Indicator Dashboard](skills/data-and-research/economic-indicators/macro-economic-indicator-dashboard.md) | Synthesizes and interprets key macroeconomic indicators into a structured dashboard summary with trend analysis and investment implications. | `cpi` `gdp` `pmi` |
 | [AlphaEar Sentiment](skills/data-and-research/market-data/alphaear-sentiment/SKILL.md) | Analyze financial text sentiment using FinBERT or LLM, returning a scored label (positive/negative/neutral) from -1.0 to 1.0 | `sentiment-analysis` `finbert` `nlp` |
 | [AlphaEar Stock](skills/data-and-research/market-data/alphaear-stock/SKILL.md) | Search A-Share and HK stock tickers by name or code and retrieve OHLCV historical price data | `a-shares` `stock-data` `ohlcv` |
+| [IPO Prospectus Analyzer](skills/data-and-research/sec-filings/ipo-prospectus-analyzer.md) | Analyzes S-1 and IPO prospectus filings to extract key financial metrics, risk factors, business model insights, and valuation context for informed pre-investment research. | `ipo` `s-1` `prospectus` |
 | [SEC 10-K Risk Factor Extractor](skills/data-and-research/sec-filings/sec-10-k-risk-factor-extractor.md) | Extracts, categorizes, and summarizes risk factors from SEC 10-K annual report filings for rapid due diligence and investment research. | `10-k` `sec-filings` `risk-factors` |
 <!-- SKILLS:data-and-research:END -->
 
