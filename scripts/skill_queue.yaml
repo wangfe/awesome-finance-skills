@@ -1,11 +1,4 @@
 pending:
-- topic: Analyst Estimate Tracker and Surprise Calculator
-  category: data-and-research/earnings-analysis
-  tags:
-  - analyst-estimates
-  - earnings-surprise
-  - consensus
-  - eps
 - topic: Insider Trading Signal Analyzer
   category: data-and-research/market-data
   tags:
@@ -297,3 +290,6 @@ completed:
 - topic: IPO Prospectus Analyzer
   file: skills/data-and-research/sec-filings/ipo-prospectus-analyzer.md
   date: '2026-04-01'
+- topic: Analyst Estimate Tracker and Surprise Calculator
+  file: skills/data-and-research/earnings-analysis/analyst-estimate-tracker-and-surprise-calculator.md
+  date: '2026-04-02'

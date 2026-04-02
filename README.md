@@ -2,7 +2,7 @@
 
 > A curated, open collection of Claude Code skills for finance — personal finance, investing, financial modeling, accounting, trading, and more.
 
-[![Skills](https://img.shields.io/badge/skills-59-blue)](#skill-index)
+[![Skills](https://img.shields.io/badge/skills-60-blue)](#skill-index)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 
@@ -362,6 +362,7 @@ Each skill is self-contained — output from one can be pasted as input to the n
 <!-- SKILLS:data-and-research:START -->
 | Skill | Description | Tags |
 |---|---|---|
+| [Analyst Estimate Tracker and Surprise Calculator](skills/data-and-research/earnings-analysis/analyst-estimate-tracker-and-surprise-calculator.md) | Tracks analyst consensus estimates and calculates earnings surprise metrics when actual results are reported. | `analyst-estimates` `earnings-surprise` `consensus` |
 | [Earnings Call Analyzer](skills/data-and-research/earnings-analysis/earnings-call-analyzer.md) | Analyze an earnings call transcript to extract key metrics, management tone, guidance changes, and hidden risks | `earnings` `earnings-call` `transcript-analysis` |
 | [Macro Economic Indicator Dashboard](skills/data-and-research/economic-indicators/macro-economic-indicator-dashboard.md) | Synthesizes and interprets key macroeconomic indicators into a structured dashboard summary with trend analysis and investment implications. | `cpi` `gdp` `pmi` |
 | [AlphaEar Sentiment](skills/data-and-research/market-data/alphaear-sentiment/SKILL.md) | Analyze financial text sentiment using FinBERT or LLM, returning a scored label (positive/negative/neutral) from -1.0 to 1.0 | `sentiment-analysis` `finbert` `nlp` |
