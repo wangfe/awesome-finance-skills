@@ -1,11 +1,4 @@
 pending:
-- topic: Insider Trading Signal Analyzer
-  category: data-and-research/market-data
-  tags:
-  - insider-trading
-  - form-4
-  - sec
-  - insider-buys-sells
 - topic: Loan Amortization Calculator
   category: tools-and-utilities/calculators
   tags:
@@ -293,3 +286,6 @@ completed:
 - topic: Analyst Estimate Tracker and Surprise Calculator
   file: skills/data-and-research/earnings-analysis/analyst-estimate-tracker-and-surprise-calculator.md
   date: '2026-04-02'
+- topic: Insider Trading Signal Analyzer
+  file: skills/data-and-research/market-data/insider-trading-signal-analyzer.md
+  date: '2026-04-03'
