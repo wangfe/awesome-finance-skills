@@ -1,11 +1,4 @@
 pending:
-- topic: Loan Amortization Calculator
-  category: tools-and-utilities/calculators
-  tags:
-  - amortization
-  - mortgage
-  - loan
-  - monthly-payment
 - topic: Bond Yield and Duration Calculator
   category: tools-and-utilities/calculators
   tags:
@@ -289,3 +282,6 @@ completed:
 - topic: Insider Trading Signal Analyzer
   file: skills/data-and-research/market-data/insider-trading-signal-analyzer.md
   date: '2026-04-03'
+- topic: Loan Amortization Calculator
+  file: skills/tools-and-utilities/calculators/loan-amortization-calculator.md
+  date: '2026-04-04'

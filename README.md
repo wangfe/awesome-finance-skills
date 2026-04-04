@@ -2,7 +2,7 @@
 
 > A curated, open collection of Claude Code skills for finance — personal finance, investing, financial modeling, accounting, trading, and more.
 
-[![Skills](https://img.shields.io/badge/skills-61-blue)](#skill-index)
+[![Skills](https://img.shields.io/badge/skills-62-blue)](#skill-index)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 
@@ -391,6 +391,7 @@ Each skill is self-contained — output from one can be pasted as input to the n
 |---|---|---|
 | [AlphaEar Search](skills/tools-and-utilities/api-integrations/alphaear-search/SKILL.md) | Perform finance web searches across multiple engines (Jina, DuckDuckGo, Baidu) and local RAG document retrieval with smart search caching | `web-search` `rag` `multi-engine` |
 | [Compound Interest Calculator](skills/tools-and-utilities/calculators/compound-interest-calculator.md) | Calculate compound interest growth, final balance, and total interest earned for any investment or loan scenario | `compound-interest` `calculator` `savings` |
+| [Loan Amortization Calculator](skills/tools-and-utilities/calculators/loan-amortization-calculator.md) | Calculates monthly loan payments and generates a full amortization schedule showing principal, interest, and balance for each period. | `amortization` `mortgage` `loan` |
 | [AlphaEar Logic Visualizer](skills/tools-and-utilities/report-generators/alphaear-logic-visualizer/SKILL.md) | Generate Draw.io XML diagrams to visualize finance logic flows, investment theses, and signal transmission chains | `visualization` `drawio` `logic-flow` |
 | [AlphaEar Reporter](skills/tools-and-utilities/report-generators/alphaear-reporter/SKILL.md) | Plan, write, and assemble professional financial reports by clustering signals into themes, writing analysis sections, and compiling a final structured report | `report-generation` `financial-reports` `signal-clustering` |
 | [Skill Creator](skills/tools-and-utilities/report-generators/alphaear-skill-creator/SKILL.md) | Design and package new Claude Code AgentSkills — covers structure, principles (concise, degrees of freedom), and the SKILL.md + resources anatomy | `skill-authoring` `meta` `agent-skills` |
