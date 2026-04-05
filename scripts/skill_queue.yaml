@@ -1,11 +1,4 @@
 pending:
-- topic: Bond Yield and Duration Calculator
-  category: tools-and-utilities/calculators
-  tags:
-  - bonds
-  - yield-to-maturity
-  - duration
-  - fixed-income
 - topic: Inflation-Adjusted Return Calculator
   category: tools-and-utilities/calculators
   tags:
@@ -285,3 +278,6 @@ completed:
 - topic: Loan Amortization Calculator
   file: skills/tools-and-utilities/calculators/loan-amortization-calculator.md
   date: '2026-04-04'
+- topic: Bond Yield and Duration Calculator
+  file: skills/tools-and-utilities/calculators/bond-yield-and-duration-calculator.md
+  date: '2026-04-05'
