@@ -2,7 +2,7 @@
 
 > A curated, open collection of Claude Code skills for finance — personal finance, investing, financial modeling, accounting, trading, and more.
 
-[![Skills](https://img.shields.io/badge/skills-63-blue)](#skill-index)
+[![Skills](https://img.shields.io/badge/skills-64-blue)](#skill-index)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 
@@ -392,6 +392,7 @@ Each skill is self-contained — output from one can be pasted as input to the n
 | [AlphaEar Search](skills/tools-and-utilities/api-integrations/alphaear-search/SKILL.md) | Perform finance web searches across multiple engines (Jina, DuckDuckGo, Baidu) and local RAG document retrieval with smart search caching | `web-search` `rag` `multi-engine` |
 | [Bond Yield and Duration Calculator](skills/tools-and-utilities/calculators/bond-yield-and-duration-calculator.md) | Calculates yield-to-maturity, Macaulay duration, modified duration, and convexity for fixed-income securities given bond parameters. | `bonds` `yield-to-maturity` `duration` |
 | [Compound Interest Calculator](skills/tools-and-utilities/calculators/compound-interest-calculator.md) | Calculate compound interest growth, final balance, and total interest earned for any investment or loan scenario | `compound-interest` `calculator` `savings` |
+| [Inflation-Adjusted Return Calculator](skills/tools-and-utilities/calculators/inflation-adjusted-return-calculator.md) | Calculates the real (inflation-adjusted) return on an investment by stripping out the effects of inflation to reveal true purchasing power gains or losses. | `inflation` `real-return` `purchasing-power` |
 | [Loan Amortization Calculator](skills/tools-and-utilities/calculators/loan-amortization-calculator.md) | Calculates monthly loan payments and generates a full amortization schedule showing principal, interest, and balance for each period. | `amortization` `mortgage` `loan` |
 | [AlphaEar Logic Visualizer](skills/tools-and-utilities/report-generators/alphaear-logic-visualizer/SKILL.md) | Generate Draw.io XML diagrams to visualize finance logic flows, investment theses, and signal transmission chains | `visualization` `drawio` `logic-flow` |
 | [AlphaEar Reporter](skills/tools-and-utilities/report-generators/alphaear-reporter/SKILL.md) | Plan, write, and assemble professional financial reports by clustering signals into themes, writing analysis sections, and compiling a final structured report | `report-generation` `financial-reports` `signal-clustering` |

@@ -1,11 +1,4 @@
 pending:
-- topic: Inflation-Adjusted Return Calculator
-  category: tools-and-utilities/calculators
-  tags:
-  - inflation
-  - real-return
-  - purchasing-power
-  - cpi
 - topic: Tax-Equivalent Yield Calculator
   category: tools-and-utilities/calculators
   tags:
@@ -281,3 +274,6 @@ completed:
 - topic: Bond Yield and Duration Calculator
   file: skills/tools-and-utilities/calculators/bond-yield-and-duration-calculator.md
   date: '2026-04-05'
+- topic: Inflation-Adjusted Return Calculator
+  file: skills/tools-and-utilities/calculators/inflation-adjusted-return-calculator.md
+  date: '2026-04-06'
