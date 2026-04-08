@@ -2,7 +2,7 @@
 
 > A curated, open collection of Claude Code skills for finance — personal finance, investing, financial modeling, accounting, trading, and more.
 
-[![Skills](https://img.shields.io/badge/skills-65-blue)](#skill-index)
+[![Skills](https://img.shields.io/badge/skills-66-blue)](#skill-index)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 
@@ -395,6 +395,7 @@ Each skill is self-contained — output from one can be pasted as input to the n
 | [Inflation-Adjusted Return Calculator](skills/tools-and-utilities/calculators/inflation-adjusted-return-calculator.md) | Calculates the real (inflation-adjusted) return on an investment by stripping out the effects of inflation to reveal true purchasing power gains or losses. | `inflation` `real-return` `purchasing-power` |
 | [Loan Amortization Calculator](skills/tools-and-utilities/calculators/loan-amortization-calculator.md) | Calculates monthly loan payments and generates a full amortization schedule showing principal, interest, and balance for each period. | `amortization` `mortgage` `loan` |
 | [Tax-Equivalent Yield Calculator](skills/tools-and-utilities/calculators/tax-equivalent-yield-calculator.md) | Calculates the tax-equivalent yield of municipal bonds and other tax-exempt securities to compare them fairly against taxable alternatives. | `tax-equivalent-yield` `municipal-bonds` `tax-bracket` |
+| [Currency Purchasing Power Parity Calculator](skills/tools-and-utilities/converters/currency-purchasing-power-parity-calculator.md) | Calculates purchasing power parity (PPP) exchange rates and compares them to market rates to assess currency over/undervaluation. | `ppp` `purchasing-power-parity` `currency` |
 | [AlphaEar Logic Visualizer](skills/tools-and-utilities/report-generators/alphaear-logic-visualizer/SKILL.md) | Generate Draw.io XML diagrams to visualize finance logic flows, investment theses, and signal transmission chains | `visualization` `drawio` `logic-flow` |
 | [AlphaEar Reporter](skills/tools-and-utilities/report-generators/alphaear-reporter/SKILL.md) | Plan, write, and assemble professional financial reports by clustering signals into themes, writing analysis sections, and compiling a final structured report | `report-generation` `financial-reports` `signal-clustering` |
 | [Skill Creator](skills/tools-and-utilities/report-generators/alphaear-skill-creator/SKILL.md) | Design and package new Claude Code AgentSkills — covers structure, principles (concise, degrees of freedom), and the SKILL.md + resources anatomy | `skill-authoring` `meta` `agent-skills` |

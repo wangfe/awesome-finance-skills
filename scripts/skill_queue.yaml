@@ -1,11 +1,4 @@
 pending:
-- topic: Currency Purchasing Power Parity Calculator
-  category: tools-and-utilities/converters
-  tags:
-  - ppp
-  - purchasing-power-parity
-  - currency
-  - exchange-rate
 - topic: Morning Market Pre-Open Briefing
   category: news-and-reporting/daily-digest
   tags:
@@ -273,3 +266,6 @@ completed:
 - topic: Tax-Equivalent Yield Calculator
   file: skills/tools-and-utilities/calculators/tax-equivalent-yield-calculator.md
   date: '2026-04-07'
+- topic: Currency Purchasing Power Parity Calculator
+  file: skills/tools-and-utilities/converters/currency-purchasing-power-parity-calculator.md
+  date: '2026-04-08'
