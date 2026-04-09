@@ -1,11 +1,4 @@
 pending:
-- topic: Morning Market Pre-Open Briefing
-  category: news-and-reporting/daily-digest
-  tags:
-  - pre-market
-  - morning-brief
-  - futures
-  - overnight-news
 - topic: Sector Rotation News Detector
   category: news-and-reporting/sector-news
   tags:
@@ -269,3 +262,6 @@ completed:
 - topic: Currency Purchasing Power Parity Calculator
   file: skills/tools-and-utilities/converters/currency-purchasing-power-parity-calculator.md
   date: '2026-04-08'
+- topic: Morning Market Pre-Open Briefing
+  file: skills/news-and-reporting/daily-digest/morning-market-pre-open-briefing.md
+  date: '2026-04-09'
