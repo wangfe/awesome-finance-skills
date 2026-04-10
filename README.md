@@ -2,7 +2,7 @@
 
 > A curated, open collection of Claude Code skills for finance — personal finance, investing, financial modeling, accounting, trading, and more.
 
-[![Skills](https://img.shields.io/badge/skills-67-blue)](#skill-index)
+[![Skills](https://img.shields.io/badge/skills-68-blue)](#skill-index)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 
@@ -207,6 +207,7 @@ Each skill is self-contained — output from one can be pasted as input to the n
 | [Daily Financial News Report](skills/news-and-reporting/daily-digest/daily-financial-news-report.md) | Automatically fetch and analyze today's financial news to produce a structured daily market briefing with key themes, market-moving events, and investment implications — with optional category filtering (e.g. real estate, crypto, tech) | `daily-briefing` `financial-news` `market-summary` |
 | [Morning Market Pre-Open Briefing](skills/news-and-reporting/daily-digest/morning-market-pre-open-briefing.md) | Generates a structured pre-market briefing covering overnight news, futures, key events, and actionable watch-list items before the trading day opens. | `pre-market` `morning-brief` `futures` |
 | [Fed Statement & FOMC Analyzer](skills/news-and-reporting/market-analysis/fed-statement-analyzer.md) | Analyze Federal Reserve statements, FOMC minutes, or Fed chair speeches to extract policy signals, rate path implications, and market impact | `fed` `fomc` `monetary-policy` |
+| [Sector Rotation News Detector](skills/news-and-reporting/sector-news/sector-rotation-news-detector.md) | Analyzes recent market news and data to identify emerging sector rotation trends and shifts in market leadership. | `sector-rotation` `sector-news` `leadership` |
 <!-- SKILLS:news-and-reporting:END -->
 
 <details>

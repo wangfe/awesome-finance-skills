@@ -1,11 +1,4 @@
 pending:
-- topic: Sector Rotation News Detector
-  category: news-and-reporting/sector-news
-  tags:
-  - sector-rotation
-  - sector-news
-  - leadership
-  - relative-strength
 - topic: Geopolitical Risk Market Impact Analyzer
   category: news-and-reporting/macro-events
   tags:
@@ -265,3 +258,6 @@ completed:
 - topic: Morning Market Pre-Open Briefing
   file: skills/news-and-reporting/daily-digest/morning-market-pre-open-briefing.md
   date: '2026-04-09'
+- topic: Sector Rotation News Detector
+  file: skills/news-and-reporting/sector-news/sector-rotation-news-detector.md
+  date: '2026-04-10'
