@@ -1,12 +1,4 @@
 pending:
-- topic: Geopolitical Risk Market Impact Analyzer
-  category: news-and-reporting/macro-events
-  tags:
-  - geopolitical-risk
-  - macro
-  - safe-haven
-  - oil
-  - commodities
 - topic: Earnings Season Weekly Recap
   category: news-and-reporting/daily-digest
   tags:
@@ -261,3 +253,6 @@ completed:
 - topic: Sector Rotation News Detector
   file: skills/news-and-reporting/sector-news/sector-rotation-news-detector.md
   date: '2026-04-10'
+- topic: Geopolitical Risk Market Impact Analyzer
+  file: skills/news-and-reporting/macro-events/geopolitical-risk-market-impact-analyzer.md
+  date: '2026-04-11'
