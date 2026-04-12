@@ -1,11 +1,4 @@
 pending:
-- topic: Earnings Season Weekly Recap
-  category: news-and-reporting/daily-digest
-  tags:
-  - earnings-season
-  - weekly-recap
-  - beats-misses
-  - guidance
 - topic: Economic Calendar Event Analyzer
   category: news-and-reporting/macro-events
   tags:
@@ -256,3 +249,6 @@ completed:
 - topic: Geopolitical Risk Market Impact Analyzer
   file: skills/news-and-reporting/macro-events/geopolitical-risk-market-impact-analyzer.md
   date: '2026-04-11'
+- topic: Earnings Season Weekly Recap
+  file: skills/news-and-reporting/daily-digest/earnings-season-weekly-recap.md
+  date: '2026-04-12'
