@@ -1,12 +1,4 @@
 pending:
-- topic: Economic Calendar Event Analyzer
-  category: news-and-reporting/macro-events
-  tags:
-  - economic-calendar
-  - cpi
-  - nfp
-  - fomc
-  - macro-events
 - topic: Financial News Sentiment Tracker
   category: news-and-reporting/market-analysis
   tags:
@@ -252,3 +244,6 @@ completed:
 - topic: Earnings Season Weekly Recap
   file: skills/news-and-reporting/daily-digest/earnings-season-weekly-recap.md
   date: '2026-04-12'
+- topic: Economic Calendar Event Analyzer
+  file: skills/news-and-reporting/macro-events/economic-calendar-event-analyzer.md
+  date: '2026-04-13'
