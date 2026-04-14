@@ -1,11 +1,4 @@
 pending:
-- topic: Financial News Sentiment Tracker
-  category: news-and-reporting/market-analysis
-  tags:
-  - news-sentiment
-  - bullish-bearish
-  - market-mood
-  - nlp
 - topic: Analyst Upgrade Downgrade Tracker
   category: news-and-reporting/market-analysis
   tags:
@@ -247,3 +240,6 @@ completed:
 - topic: Economic Calendar Event Analyzer
   file: skills/news-and-reporting/macro-events/economic-calendar-event-analyzer.md
   date: '2026-04-13'
+- topic: Financial News Sentiment Tracker
+  file: skills/news-and-reporting/market-analysis/financial-news-sentiment-tracker.md
+  date: '2026-04-14'
