@@ -2,7 +2,7 @@
 
 > A curated, open collection of Claude Code skills for finance — personal finance, investing, financial modeling, accounting, trading, and more.
 
-[![Skills](https://img.shields.io/badge/skills-72-blue)](#skill-index)
+[![Skills](https://img.shields.io/badge/skills-73-blue)](#skill-index)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 
@@ -209,6 +209,7 @@ Each skill is self-contained — output from one can be pasted as input to the n
 | [Morning Market Pre-Open Briefing](skills/news-and-reporting/daily-digest/morning-market-pre-open-briefing.md) | Generates a structured pre-market briefing covering overnight news, futures, key events, and actionable watch-list items before the trading day opens. | `pre-market` `morning-brief` `futures` |
 | [Economic Calendar Event Analyzer](skills/news-and-reporting/macro-events/economic-calendar-event-analyzer.md) | Analyzes upcoming and recent economic calendar events to assess their potential market impact, historical context, and implications for asset classes. | `economic-calendar` `cpi` `nfp` |
 | [Geopolitical Risk Market Impact Analyzer](skills/news-and-reporting/macro-events/geopolitical-risk-market-impact-analyzer.md) | Analyzes geopolitical events and their cascading effects across asset classes, identifying safe-haven flows, commodity disruptions, and sector-level risks. | `geopolitical-risk` `macro` `safe-haven` |
+| [Analyst Upgrade Downgrade Tracker](skills/news-and-reporting/market-analysis/analyst-upgrade-downgrade-tracker.md) | Tracks, organizes, and interprets analyst rating changes and price target revisions across stocks to surface actionable insights and sentiment trends. | `analyst-ratings` `upgrades` `downgrades` |
 | [Fed Statement & FOMC Analyzer](skills/news-and-reporting/market-analysis/fed-statement-analyzer.md) | Analyze Federal Reserve statements, FOMC minutes, or Fed chair speeches to extract policy signals, rate path implications, and market impact | `fed` `fomc` `monetary-policy` |
 | [Financial News Sentiment Tracker](skills/news-and-reporting/market-analysis/financial-news-sentiment-tracker.md) | Analyzes financial news headlines and articles to score market sentiment as bullish, bearish, or neutral with supporting rationale. | `news-sentiment` `bullish-bearish` `market-mood` |
 | [Sector Rotation News Detector](skills/news-and-reporting/sector-news/sector-rotation-news-detector.md) | Analyzes recent market news and data to identify emerging sector rotation trends and shifts in market leadership. | `sector-rotation` `sector-news` `leadership` |

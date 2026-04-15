@@ -1,11 +1,4 @@
 pending:
-- topic: Analyst Upgrade Downgrade Tracker
-  category: news-and-reporting/market-analysis
-  tags:
-  - analyst-ratings
-  - upgrades
-  - downgrades
-  - price-targets
 - topic: Portfolio Tax-Loss Harvesting Opportunity Finder
   category: investing/portfolio-analysis
   tags:
@@ -243,3 +236,6 @@ completed:
 - topic: Financial News Sentiment Tracker
   file: skills/news-and-reporting/market-analysis/financial-news-sentiment-tracker.md
   date: '2026-04-14'
+- topic: Analyst Upgrade Downgrade Tracker
+  file: skills/news-and-reporting/market-analysis/analyst-upgrade-downgrade-tracker.md
+  date: '2026-04-15'
