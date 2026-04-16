@@ -1,11 +1,4 @@
 pending:
-- topic: Portfolio Tax-Loss Harvesting Opportunity Finder
-  category: investing/portfolio-analysis
-  tags:
-  - tax-loss-harvesting
-  - unrealized-losses
-  - wash-sale
-  - tax-efficiency
 - topic: Portfolio Stress Test Simulator
   category: investing/portfolio-analysis
   tags:
@@ -239,3 +232,6 @@ completed:
 - topic: Analyst Upgrade Downgrade Tracker
   file: skills/news-and-reporting/market-analysis/analyst-upgrade-downgrade-tracker.md
   date: '2026-04-15'
+- topic: Portfolio Tax-Loss Harvesting Opportunity Finder
+  file: skills/investing/portfolio-analysis/portfolio-tax-loss-harvesting-opportunity-finder.md
+  date: '2026-04-16'
