@@ -1,12 +1,4 @@
 pending:
-- topic: Portfolio Stress Test Simulator
-  category: investing/portfolio-analysis
-  tags:
-  - stress-test
-  - drawdown
-  - crisis-scenarios
-  - 2008
-  - covid-crash
 - topic: Dividend Income Portfolio Tracker
   category: investing/portfolio-analysis
   tags:
@@ -235,3 +227,6 @@ completed:
 - topic: Portfolio Tax-Loss Harvesting Opportunity Finder
   file: skills/investing/portfolio-analysis/portfolio-tax-loss-harvesting-opportunity-finder.md
   date: '2026-04-16'
+- topic: Portfolio Stress Test Simulator
+  file: skills/investing/portfolio-analysis/portfolio-stress-test-simulator.md
+  date: '2026-04-17'
