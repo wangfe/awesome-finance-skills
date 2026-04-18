@@ -1,11 +1,4 @@
 pending:
-- topic: Dividend Income Portfolio Tracker
-  category: investing/portfolio-analysis
-  tags:
-  - dividend-income
-  - yield-on-cost
-  - drip
-  - income-investing
 - topic: Portfolio Correlation Matrix Builder
   category: investing/portfolio-analysis
   tags:
@@ -230,3 +223,6 @@ completed:
 - topic: Portfolio Stress Test Simulator
   file: skills/investing/portfolio-analysis/portfolio-stress-test-simulator.md
   date: '2026-04-17'
+- topic: Dividend Income Portfolio Tracker
+  file: skills/investing/portfolio-analysis/dividend-income-portfolio-tracker.md
+  date: '2026-04-18'
