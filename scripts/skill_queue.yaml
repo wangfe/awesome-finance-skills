@@ -1,11 +1,4 @@
 pending:
-- topic: Portfolio Correlation Matrix Builder
-  category: investing/portfolio-analysis
-  tags:
-  - correlation
-  - diversification
-  - portfolio-risk
-  - covariance
 - topic: Portfolio vs Benchmark Comparison
   category: investing/portfolio-analysis
   tags:
@@ -226,3 +219,6 @@ completed:
 - topic: Dividend Income Portfolio Tracker
   file: skills/investing/portfolio-analysis/dividend-income-portfolio-tracker.md
   date: '2026-04-18'
+- topic: Portfolio Correlation Matrix Builder
+  file: skills/investing/portfolio-analysis/portfolio-correlation-matrix-builder.md
+  date: '2026-04-19'
