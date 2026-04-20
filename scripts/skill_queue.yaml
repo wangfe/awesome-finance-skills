@@ -1,12 +1,4 @@
 pending:
-- topic: Portfolio vs Benchmark Comparison
-  category: investing/portfolio-analysis
-  tags:
-  - benchmark
-  - alpha
-  - beta
-  - tracking-error
-  - information-ratio
 - topic: Crypto Portfolio Tracker and Risk Report
   category: investing/crypto
   tags:
@@ -222,3 +214,6 @@ completed:
 - topic: Portfolio Correlation Matrix Builder
   file: skills/investing/portfolio-analysis/portfolio-correlation-matrix-builder.md
   date: '2026-04-19'
+- topic: Portfolio vs Benchmark Comparison
+  file: skills/investing/portfolio-analysis/portfolio-vs-benchmark-comparison.md
+  date: '2026-04-20'

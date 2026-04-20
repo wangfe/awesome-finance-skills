@@ -2,7 +2,7 @@
 
 > A curated, open collection of Claude Code skills for finance — personal finance, investing, financial modeling, accounting, trading, and more.
 
-[![Skills](https://img.shields.io/badge/skills-77-blue)](#skill-index)
+[![Skills](https://img.shields.io/badge/skills-78-blue)](#skill-index)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 
@@ -239,6 +239,7 @@ Each skill is self-contained — output from one can be pasted as input to the n
 | [Portfolio Performance Report Generator](skills/investing/portfolio-analysis/portfolio-performance-report.md) | Generate a detailed periodic portfolio performance report with returns, benchmark comparison, attribution, risk metrics, and commentary | `portfolio-report` `performance` `benchmark` |
 | [Portfolio Stress Test Simulator](skills/investing/portfolio-analysis/portfolio-stress-test-simulator.md) | Simulates how a portfolio would have performed during major historical market crises and custom stress scenarios to quantify downside risk and maximum drawdown. | `stress-test` `drawdown` `crisis-scenarios` |
 | [Portfolio Tax-Loss Harvesting Opportunity Finder](skills/investing/portfolio-analysis/portfolio-tax-loss-harvesting-opportunity-finder.md) | Analyzes a portfolio for tax-loss harvesting opportunities by identifying unrealized losses, flagging wash-sale risks, and suggesting replacement securities. | `tax-loss-harvesting` `unrealized-losses` `wash-sale` |
+| [Portfolio vs Benchmark Comparison](skills/investing/portfolio-analysis/portfolio-vs-benchmark-comparison.md) | Analyzes a portfolio's performance relative to a chosen benchmark by computing alpha, beta, tracking error, information ratio, and other key risk-adjusted metrics. | `benchmark` `alpha` `beta` |
 | [Stock Portfolio Analyzer](skills/investing/portfolio-analysis/stock-portfolio-analyzer.md) | Analyze a stock portfolio's performance, allocation, risk concentration, sector exposure, and key metrics — and generate a comprehensive portfolio health report | `portfolio-analysis` `stock-portfolio` `performance` |
 | [Portfolio Rebalancing Advisor](skills/investing/portfolio-management/portfolio-rebalancing-advisor.md) | Analyzes current portfolio holdings against target allocations and recommends specific trades to restore balance while minimizing taxes and transaction costs. | `rebalancing` `asset-allocation` `portfolio` |
 | [Rental Property Cash Flow Analyzer](skills/investing/real-estate/rental-property-cash-flow-analyzer.md) | Analyzes rental property investments by calculating cash flow, cap rate, cash-on-cash return, and key metrics to evaluate profitability. | `rental-property` `cash-flow` `cap-rate` |
