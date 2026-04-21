@@ -1,13 +1,4 @@
 pending:
-- topic: Crypto Portfolio Tracker and Risk Report
-  category: investing/crypto
-  tags:
-  - crypto
-  - bitcoin
-  - ethereum
-  - portfolio
-  - risk
-  - volatility
 - topic: ESG Portfolio Scoring Tool
   category: investing/portfolio-management
   tags:
@@ -217,3 +208,6 @@ completed:
 - topic: Portfolio vs Benchmark Comparison
   file: skills/investing/portfolio-analysis/portfolio-vs-benchmark-comparison.md
   date: '2026-04-20'
+- topic: Crypto Portfolio Tracker and Risk Report
+  file: skills/investing/crypto/crypto-portfolio-tracker-and-risk-report.md
+  date: '2026-04-21'

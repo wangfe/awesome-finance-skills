@@ -2,7 +2,7 @@
 
 > A curated, open collection of Claude Code skills for finance — personal finance, investing, financial modeling, accounting, trading, and more.
 
-[![Skills](https://img.shields.io/badge/skills-78-blue)](#skill-index)
+[![Skills](https://img.shields.io/badge/skills-79-blue)](#skill-index)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 
@@ -232,6 +232,7 @@ Each skill is self-contained — output from one can be pasted as input to the n
 <!-- SKILLS:investing:START -->
 | Skill | Description | Tags |
 |---|---|---|
+| [Crypto Portfolio Tracker and Risk Report](skills/investing/crypto/crypto-portfolio-tracker-and-risk-report.md) | Analyzes a user-provided cryptocurrency portfolio and generates a comprehensive risk report covering allocation, volatility exposure, correlation, and portfolio health metrics. | `crypto` `bitcoin` `ethereum` |
 | [ETF Expense Ratio Comparator](skills/investing/etf-funds/etf-expense-ratio-comparator.md) | Compares expense ratios across multiple ETFs to quantify the long-term cost impact on portfolio returns. | `etf` `expense-ratio` `index-funds` |
 | [Black-Scholes Options Pricing Model](skills/investing/options-derivatives/black-scholes-options-pricing-model.md) | Calculates theoretical option prices and Greeks using the Black-Scholes model for European-style call and put options. | `options` `black-scholes` `pricing` |
 | [Dividend Income Portfolio Tracker](skills/investing/portfolio-analysis/dividend-income-portfolio-tracker.md) | Analyzes a dividend-focused portfolio to calculate yield metrics, income projections, DRIP growth, and payout sustainability for income investors. | `dividend-income` `yield-on-cost` `drip` |
