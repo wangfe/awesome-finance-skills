@@ -1,12 +1,4 @@
 pending:
-- topic: ESG Portfolio Scoring Tool
-  category: investing/portfolio-management
-  tags:
-  - esg
-  - sustainable-investing
-  - environmental
-  - social
-  - governance
 - topic: Options Portfolio Greeks Aggregator
   category: investing/options-derivatives
   tags:
@@ -211,3 +203,6 @@ completed:
 - topic: Crypto Portfolio Tracker and Risk Report
   file: skills/investing/crypto/crypto-portfolio-tracker-and-risk-report.md
   date: '2026-04-21'
+- topic: ESG Portfolio Scoring Tool
+  file: skills/investing/portfolio-management/esg-portfolio-scoring-tool.md
+  date: '2026-04-22'
