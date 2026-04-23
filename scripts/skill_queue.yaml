@@ -1,12 +1,4 @@
-pending:
-- topic: Options Portfolio Greeks Aggregator
-  category: investing/options-derivatives
-  tags:
-  - options
-  - greeks
-  - delta-hedge
-  - portfolio-greeks
-  - risk
+pending: []
 completed:
 - topic: 50/30/20 Budget Builder
   file: skills/personal-finance/budgeting/50-30-20-budget-builder.md
@@ -206,3 +198,6 @@ completed:
 - topic: ESG Portfolio Scoring Tool
   file: skills/investing/portfolio-management/esg-portfolio-scoring-tool.md
   date: '2026-04-22'
+- topic: Options Portfolio Greeks Aggregator
+  file: skills/investing/options-derivatives/options-portfolio-greeks-aggregator.md
+  date: '2026-04-23'
